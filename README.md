@@ -17,3 +17,12 @@ Our hypothesis might be that because cops have the added scrutiny of the cameras
  By comparing the use of body-cams and reported incidents of peculiar police behavior (excessive force, or otherwise) either aggregated across many police jurisdictions or per-jurisdiction over many separate communities we may be able to better understand the effect of police body cams on police behavior
 
  Either body cams are used or they are not, and this either has some discernable effect on behavior (an increase or decrease in reported excessive use of force) or it has no effect.
+
+## 3. The change in Supreme Court Decisions over time. 
+How do the times determine what is constitutional and what isn't? Does public opinion determine what is "legal", is it the other way around, or is there no correlation at all?
+
+We assume that Justices have their own interpretations of the Constitution, but would like to see if the natural progression of society sways any of their decisions. It will particularly interesting to examine the political lean of decisions over time for each Justice, as they tend to serve very long terms. 
+
+One very interesting time would be to examine the 60's and The Civil Rights movements and compare them to today - as the United States is in an ever increasingly tense political climate.
+
+If we can analyze the language/examine the political landscape and compare it to the Supreme Court rulings of each time, we can see if there has a been overly liberal/conservative trend, or just what we expect given the times.
