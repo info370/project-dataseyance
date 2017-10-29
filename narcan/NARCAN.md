@@ -21,7 +21,7 @@ See [narcan.Rmd](https://github.com/info370/project-dataseyance/blob/master/narc
 
 ## Findings
 
-This pilot study was highly innefective in making any conclusions about the effect of narcan availabilitiy on opioid overdoses. The trend is increasing largely, and there must be other factors that are influencing the death rates. This makes sense, given the wide amount of information showing that opioid use is increasing.
+This pilot study was highly innefective in making any conclusions about the effect of narcan availabilitiy on opioid overdoses. The trend of deaths per month is increasing at a significant rate, so there must be other factors that are influencing the death rates. This makes sense, given the wide amount of information showing that opioid use is increasing.
 
 ## Next steps
 
