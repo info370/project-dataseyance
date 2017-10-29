@@ -1,0 +1,26 @@
+---
+title: "Project Data-Seyance Narcan Pilot Study"
+output: html_notebook
+---
+
+```{r}
+library(dplyr)
+library(ggplot2)
+
+# Set your working directory to "~/project-data-seyance/narcan/"
+# Following dataset cleaned with Wrangler
+overdose_data = read.csv("Accidental_Drug_Related_Deaths__2012-2017_cleaned_date_separated.csv")
+
+overdose_2012 = filter(overdose_data, Year == 2012)
+overdose_2013 = filter(overdose_data, Year == 2013)
+overdose_2014 = filter(overdose_data, Year == 2014)
+overdose_2015 = filter(overdose_data, Year == 2015)
+overdose_2016 = filter(overdose_data, Year == 2016)
+overdose_2017 = filter(overdose_data, Year == 2017)
+
+overdose_Jan= filter(overdose_data, Month == 01)
+qplot(x=Year, data=overdose_Jan)
+
+overdose_Jun= filter(overdose_data, Month == 06)
+qplot(x=Year, data=overdose_Jun)
+```
