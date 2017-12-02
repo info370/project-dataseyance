@@ -1,0 +1,1 @@
+excess <- read.csv("SeattleExcessLandSample .csv")
