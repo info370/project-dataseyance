@@ -14,11 +14,19 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
         <script src="https://code.jquery.com/jquery.min.js"></script>
 
+        <!-- D3 -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://d3js.org/d3.v4.min.js"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+        <script src="https://d3js.org/topojson.v2.min.js"></script>
+        
         <!-- Custom files -->
         <link rel="stylesheet" href="./website/css/main.css" />
 
         <!-- your script file -->
-        <script src="./website/js/main.js"></script>
+        <!-- <script src="./website/js/main.js"></script> -->
+        <script src="./website/js/stackedbarChart.js"></script>
     </head>
 
     <body>
@@ -54,10 +62,10 @@
                 </p>
             </div>
 
-            <!-- Visualization -->
-            <div id="affordability-visualization">
-
-            </div>
+            <!-- Visualizations -->
+            <svg id="affordability-stacked-bar-chart"></svg>
+            <div id="affordability-chloropleth"></div>
+            
         </section>
 
         <section id="question-two">
