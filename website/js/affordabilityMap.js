@@ -22,6 +22,7 @@ $(function () {
 
     // Load and prep data and shapefile
     var url = "https://d3js.org/us-10m.v1.json";
+    // var url = "website/data/seattle-zipcodes.geojson";
     var csvData = "website/data/ihme-life-expectancy.csv";
 
     d3.queue()
