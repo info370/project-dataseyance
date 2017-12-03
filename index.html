@@ -1,93 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Housing Affordability</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Affordability</title>
 
-        <!-- Libraries -->
-        <!-- Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Libraries -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
 
-        <!-- Optional theme -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-        <script src="https://code.jquery.com/jquery.min.js"></script>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
 
-        <!-- D3 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-        <script src="https://d3js.org/d3.v4.min.js"></script>
-        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
-        <script src="https://d3js.org/topojson.v2.min.js"></script>
-        
-        <!-- Custom files -->
-        <link rel="stylesheet" href="./website/css/main.css" />
+    <!-- D3 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.24.0/d3-legend.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
 
-        <!-- your script file -->
-        <!-- <script src="./website/js/main.js"></script> -->
-        <script src="./website/js/stackedBarChart.js"></script>
-    </head>
+    <!-- Custom files -->
+    <link rel="stylesheet" href="./website/css/main.css" />
 
-    <body>
-        <section id="introduction">
-            <div class="container">            
-                <h1>Affordable Housing in Seattle</h1>
-            </div>
-        </section>
+    <!-- your script file -->
+    <!-- <script src="./website/js/main.js"></script> -->
+    <script src="./website/js/stackedBarChart.js"></script>
+    <script src="./website/js/affordabilityMap.js"></script>
+</head>
 
-        <section id="question-one">
-            <div class="container">
-                <h2>How many people won't be able to afford housing in Seattle?</h2>
-                <p>
-                    There have been plenty of studies of how housing prices are changing in Seattle. We want to relate these trends in income and 
-                    costs of essentials to understand how many people won't be able to afford housing. 
-                </p>
+<body>
+    <section id="introduction">
+        <div class="container">
+            <h1>Affordable Housing in Seattle</h1>
+        </div>
+    </section>
 
-                <p>
-                    &nbsp;&nbsp; Money People Earn <br>
-                    - Money spent on Rent <br>
-                    - Money spent on Other Essentials. <br>
-                    <hr class="arithmetic-hr">
-                </p>
+    <section id="question-one">
+        <div class="container">
+            <h2>How many people won't be able to afford housing in Seattle?</h2>
+            <p>
+                There have been plenty of studies of how housing prices are changing in Seattle. We want to relate these trends in income
+                and costs of essentials to understand how many people won't be able to afford housing.
+            </p>
 
-                <p>
-                    &nbsp;&nbsp;Extra income.
-                </p>
+            <p>
+                &nbsp;&nbsp; Money People Earn
+                <br> - Money spent on Rent
+                <br> - Money spent on Other Essentials.
+                <br>
+                <hr class="arithmetic-hr">
+            </p>
 
-                <p>
-                    Being able to afford housing doesn't just mean people have enough money out of their total. Money spent on rent needs to be 
-                    a reasonable amount that doesn't limit people in other aspects of life. They need to be able to save and spend on other things. 
-                    This is a rough metric of the quality of life. ...
-                </p>
-            </div>
-            
-        </section>
+            <p>
+                &nbsp;&nbsp;Extra income.
+            </p>
 
-        <!-- Visualizations -->
-        <svg id="affordability-stacked-bar-chart" width="960" height="500"></svg>
-        <div id="affordability-chloropleth"></div>
+            <p>
+                Being able to afford housing doesn't just mean people have enough money out of their total. Money spent on rent needs to
+                be a reasonable amount that doesn't limit people in other aspects of life. They need to be able to save and
+                spend on other things. This is a rough metric of the quality of life. ...
+            </p>
+        </div>
 
-        <section id="question-two">
-            <div class="container">
-                <h2>How many people won't be able to afford housing in Seattle?</h2>
-            </div>
+    </section>
 
-        </section>
+    <!-- Visualizations -->
+    <svg id="affordability-stacked-bar-chart" width="960" height="500"></svg>
+    <div id="affordability-chloropleth"></div>  
 
-        <section id="question-three">
-            <div class="container">
-                <h2>How many people won't be able to afford housing in Seattle?</h2>
-            </div>
+    <section id="question-two">
+        <div class="container">
+            <h2>How many people won't be able to afford housing in Seattle?</h2>
+        </div>
 
-        </section>
-        <footer>
-            <div class="container">
-                <p>
-                    Made by Ethan, Henry, Ishan and Kyle with <3
-                </p>
-            </div>
-        </footer>
+    </section>
 
-    </body>
+    <section id="question-three">
+        <div class="container">
+            <h2>How many people won't be able to afford housing in Seattle?</h2>
+        </div>
+
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                Made by Ethan, Henry, Ishan and Kyle with
+                <3 </p>
+        </div>
+    </footer>
+
+</body>
+
 </html>
