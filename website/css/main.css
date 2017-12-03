@@ -76,6 +76,12 @@ section#introduction h1 {
     color: red;
 }
 
+/* Visualizations */
+svg {
+    display: block;
+    margin: 0 auto;
+}
+
 /* Footer */
 footer {
     padding: 36px 0;

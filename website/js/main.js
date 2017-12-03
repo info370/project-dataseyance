@@ -25,8 +25,8 @@ $(function () {
     var url = "website/data/seattle-zipcodes.geojson";
     // var csvData = "data/ihme-life-expectancy.csv";
 
-    d3.queue()
-        .defer(d3.json, url)
+    // d3.queue()
+        // .defer(d3.json, url)
     //     .defer(d3.csv, csvData, function (e) {
     //         // Correct codes with just 4 characters
     //         if (e["FIPS"].length == 4) {
