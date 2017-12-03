@@ -1,67 +1,67 @@
 Jur Dept,Jurisdictional Dept,PMA NUM,PMA Name,PMA Location Address, PMA Land SqFt ,PMA Classification,Permit Type,Extra Environmental Information,PMA Current Use,PMA Future Use If Any,City Ownership,Category,Comment
-FAS,Finance & Admin Svcs,4540,Myers Way Parcel B,9501 Myers Way S," 711,204 ",Excess,Commercial2-65 ,40% Steep Slope Riparian Corridor Wetlands,Vacant (Undeveloped),,Owned,In process,Mayoral direction to keep a portion for expansion of JTF and preserve a portion for future open space and/or recreation use; community engagement on-going.
-FAS,Finance & Admin Svcs,4541,Myers Way Parcel C,9701 Myers Way S," 453,228 ",Excess,Commercial2-65 ,40% Steep Slope Riparian Corridor Wetlands,Vacant (Undeveloped),,Owned,In process,Mayoral direction to keep a portion for expansion of JTF and preserve a portion for future open space and/or recreation use; community engagement on-going.
-FAS,Finance & Admin Svcs,4542,Myers Way Parcel D,9600 Myers Way S," 296,507 ",Excess,Commercial2-65 ,,Vacant (Undeveloped),,Owned,In process,Mayoral direction to keep a portion for expansion of JTF and preserve a portion for future open space and/or recreation use; community engagement on-going.
-FAS,Finance & Admin Svcs,158,12 Lots at 8237 44th Ave SW,8237 44th Ave SW," 55,010 ",Excess,Single Family 5000 ,40% Steep Slope Known Slide Area Potential Slide Area,Vacant (Undeveloped),,Owned,Difficult building site,Could sell 4 lots to encroaching abuttors with environmental covenant
-FAS,Finance & Admin Svcs,22,Parcel at 3401 S Della St,3401 S Della St," 34,760 ",Excess,Single Family 5000 ,40% Steep Slope Known Slide Area Potential Slide Area,Green Space/Natural Area,,Owned,Pending Housing Assessment,Evaluate potential for mix of housing and green space.
-FAS,Finance & Admin Svcs,145,Greenwood Senior Center,525 N 85th St," 22,056 ",Excess,Neighborhood Commercial2-40 ,Salmon Watershed,Senior Services,,Owned,In process,Transfer to PNA; covenant gives City future City housing option
-FAS,Finance & Admin Svcs,1648,Parcel at 7328 16th Ave SW,7328 16th Ave SW," 21,977 ",Excess,Single Family 7200 ,40% Steep Slope Salmon Watershed Wetlands,Drainage (Natural),,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,4217,Parcel at 2765 Harbor Ave SW,2765 Harbor Ave SW," 20,112 ",Excess,Single Family 7200  ,40% Steep Slope Abandoned Landfill Archaelogical Buffer Liquefaction Zone Potential Slide Area Wildlife Preservation Area,Green Space/Natural Area,,Owned,Pending Housing Assessment,On Harbor Avenue near Admiral; 1/2 treed; could sell 1/2 for housing - OH informed but no memo yet. Needs rezone.
-FAS,Finance & Admin Svcs,110,Old Fire Station 6- SPD,101 23rd Ave S," 19,604 ",Excess,Lowrise 3 ,40% Steep Slope,Police Facility,,Owned,In process,OED working with community. Landmark bldg
-FAS,Finance & Admin Svcs,60,Parcel at 7018 Lincoln Park Wy SW,7018 Lincoln Park Way SW," 18,197 ",Excess,Single Family 5000 ,40% Steep Slope Riparian Corridor Wetlands,Vacant (Undeveloped),,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,1594,Yakima Ave S Property,1310 Yakima Ave S," 16,476 ",Excess,Lowrise 1 ,40% Steep Slope,Vacant (Undeveloped),Potential Housing Site,Owned,In process,Considering housing or other public use
-FAS,Finance & Admin Svcs,4522,Parcel at 10612 55th Ave S,10612 55th Ave S," 14,157 ",Excess,Lowrise 1 ,40% Steep Slope,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to difficulty of access and zoning; Interior block w/ drive
-FAS,Finance & Admin Svcs,1638,51st Pl S  Roadway,6298 51st Pl S," 12,985 ",Excess,Single Family 9600 ,40% Steep Slope,Roadway,,Owned,Difficult building site,Used as alley
+FAS,Finance & Admin Svcs,4540,Myers Way Parcel B,9501 Myers Way S," 711,204 ",Excess,6,40% Steep Slope Riparian Corridor Wetlands,Vacant (Undeveloped),,Owned,In process,Mayoral direction to keep a portion for expansion of JTF and preserve a portion for future open space and/or recreation use; community engagement on-going.
+FAS,Finance & Admin Svcs,4541,Myers Way Parcel C,9701 Myers Way S," 453,228 ",Excess,6,40% Steep Slope Riparian Corridor Wetlands,Vacant (Undeveloped),,Owned,In process,Mayoral direction to keep a portion for expansion of JTF and preserve a portion for future open space and/or recreation use; community engagement on-going.
+FAS,Finance & Admin Svcs,4542,Myers Way Parcel D,9600 Myers Way S," 296,507 ",Excess,6,,Vacant (Undeveloped),,Owned,In process,Mayoral direction to keep a portion for expansion of JTF and preserve a portion for future open space and/or recreation use; community engagement on-going.
+FAS,Finance & Admin Svcs,158,12 Lots at 8237 44th Ave SW,8237 44th Ave SW," 55,010 ",Excess,1,40% Steep Slope Known Slide Area Potential Slide Area,Vacant (Undeveloped),,Owned,Difficult building site,Could sell 4 lots to encroaching abuttors with environmental covenant
+FAS,Finance & Admin Svcs,22,Parcel at 3401 S Della St,3401 S Della St," 34,760 ",Excess,1,40% Steep Slope Known Slide Area Potential Slide Area,Green Space/Natural Area,,Owned,Pending Housing Assessment,Evaluate potential for mix of housing and green space.
+FAS,Finance & Admin Svcs,145,Greenwood Senior Center,525 N 85th St," 22,056 ",Excess,7,Salmon Watershed,Senior Services,,Owned,In process,Transfer to PNA; covenant gives City future City housing option
+FAS,Finance & Admin Svcs,1648,Parcel at 7328 16th Ave SW,7328 16th Ave SW," 21,977 ",Excess,2,40% Steep Slope Salmon Watershed Wetlands,Drainage (Natural),,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,4217,Parcel at 2765 Harbor Ave SW,2765 Harbor Ave SW," 20,112 ",Excess,2,40% Steep Slope Abandoned Landfill Archaelogical Buffer Liquefaction Zone Potential Slide Area Wildlife Preservation Area,Green Space/Natural Area,,Owned,Pending Housing Assessment,On Harbor Avenue near Admiral; 1/2 treed; could sell 1/2 for housing - OH informed but no memo yet. Needs rezone.
+FAS,Finance & Admin Svcs,110,Old Fire Station 6- SPD,101 23rd Ave S," 19,604 ",Excess,5,40% Steep Slope,Police Facility,,Owned,In process,OED working with community. Landmark bldg
+FAS,Finance & Admin Svcs,60,Parcel at 7018 Lincoln Park Wy SW,7018 Lincoln Park Way SW," 18,197 ",Excess,1,40% Steep Slope Riparian Corridor Wetlands,Vacant (Undeveloped),,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,1594,Yakima Ave S Property,1310 Yakima Ave S," 16,476 ",Excess,3,40% Steep Slope,Vacant (Undeveloped),Potential Housing Site,Owned,In process,Considering housing or other public use
+FAS,Finance & Admin Svcs,4522,Parcel at 10612 55th Ave S,10612 55th Ave S," 14,157 ",Excess,3,40% Steep Slope,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to difficulty of access and zoning; Interior block w/ drive
+FAS,Finance & Admin Svcs,1638,51st Pl S  Roadway,6298 51st Pl S," 12,985 ",Excess,2,40% Steep Slope,Roadway,,Owned,Difficult building site,Used as alley
 FAS,Finance & Admin Svcs,4185,Parcel at 911 Aurora Ave N,905 Aurora Ave N," 11,413 ",Excess,,,Unused (Vacant Improved),,Owned,In Process,"In process. Looking at potential City uses, but steep slopes and busy road limit development potential."
-FAS,Finance & Admin Svcs,4318,Parcel at 8617 MLK Jr Way S,8617 Martin Luther King Jr Way S," 10,528 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,72,Chief Sealth Trail- FAS Portion,8499 Martin Luther King Jr Way S," 9,871 ",Excess,Single Family 5000 ,,Multi-Use Trail,,Owned,Retain for City use,Bike Trail on site
-FAS,Finance & Admin Svcs,24,Parcel at 31st Ave S and S Lexington,3924 31st Ave S," 9,506 ",Excess,Single Family 5000 ,40% Steep Slope,Roadway,,Owned,Retain for City use,De facto road serves residences
-FAS,Finance & Admin Svcs,1649,SW Webster and Dumar Property,1799 SW Webster St," 8,207 ",Excess,Single Family 5000 ,Salmon Watershed,Vacant (Undeveloped),,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,30,Parcel at 1766 Alki Ave SW,1766 Alki Ave SW," 6,630 ",Excess,Lowrise 2 ,Archaelogical Buffer Known Slide Area Liquefaction Zone Potential Slide Area,Green Space/Natural Area,,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,1588,Slope at 2348 Perkins Lane W,2348 Perkins Ln W," 5,764 ",Excess,Single Family 7200 ,,Slope Protection,,Owned,Difficult building site,Steep slope
-FAS,Finance & Admin Svcs,4253,Snippet at 7609 6th Ave NE,7604 Banner Way NE," 5,757 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1654,Ravine At 9628 Renton Ave S,9628 Renton Ave S," 4,949 ",Excess,Lowrise 2 ,Riparian Corridor,Drainage (Natural),,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,66,Parcel at 280 NW Market St,280 NW Market St," 4,395 ",Excess,Single Family 5000,40% Steep Slope,Slope Protection,,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,4330,Parcel at 100 MLK Jr Way S,100 Martin Luther King Jr Way," 4,063 ",Excess,Lowrise 2 ,40% Steep Slope,Landscaping,,Owned,Potential sale; proceeds to OH,No OH interest due to size
-FAS,Finance & Admin Svcs,68,Parcel at 400 NW Market St,400 NW Market St," 3,593 ",Excess,Lowrise 1 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,51,Snippet at 1500 W Nickerson St,1500 W Nickerson St," 3,539 ",Excess,Industrial General1,40% Steep Slope Archaelogical Buffer Liquefaction Zone,Storage (Uncovered),,Owned,Snippet,
-FAS,Finance & Admin Svcs,1658,Parcel at 5917 S Hazel St,5917 S Hazel St," 3,327 ",Excess,Single Family 7200 ,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),,Owned,Difficult building site,Interior block w/ drive; sell
-FAS,Finance & Admin Svcs,1600,Parcel at 1323 29th Ave S,1323 29th Ave S," 3,300 ",Excess,Lowrise 1,,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to size and encroachment issues.
-FAS,Finance & Admin Svcs,82,Parcel at 2298 Sylvan Way SW,2298 Sylvan Way SW," 3,168 ",Excess,Lowrise 1 ,,Landscaping,,Owned,Potential sale; proceeds to OH,"GMP funds, adj. commercial. No OH interest due to size"
-FAS,Finance & Admin Svcs,4054,Parcel at 6th Ave W & W Bertona,527 W Emerson St," 3,056 ",Excess,Major Institution Overlay-37-Lowrise 2 ,Potential Slide Area,Green Space/Natural Area,,Owned,Retain for City use,Portion of landscaped street triangle
-FAS,Finance & Admin Svcs,4331,Snippet at 102 MLK Jr Way S,102 Martin Luther King Jr Way S," 2,947 ",Excess,Lowrise 2 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4276,Parcel at 7342 11th Ave NE,7342 11th Ave NE," 2,799 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Difficult building site,Narrow lot
-FAS,Finance & Admin Svcs,1429,Snippet at 3601 York Rd S,3601 York Rd S," 2,191 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4318,Parcel at 8617 MLK Jr Way S,8617 Martin Luther King Jr Way S," 10,528 ",Excess,1,,Landscaping,,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,72,Chief Sealth Trail- FAS Portion,8499 Martin Luther King Jr Way S," 9,871 ",Excess,1,,Multi-Use Trail,,Owned,Retain for City use,Bike Trail on site
+FAS,Finance & Admin Svcs,24,Parcel at 31st Ave S and S Lexington,3924 31st Ave S," 9,506 ",Excess,1,40% Steep Slope,Roadway,,Owned,Retain for City use,De facto road serves residences
+FAS,Finance & Admin Svcs,1649,SW Webster and Dumar Property,1799 SW Webster St," 8,207 ",Excess,1,Salmon Watershed,Vacant (Undeveloped),,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,30,Parcel at 1766 Alki Ave SW,1766 Alki Ave SW," 6,630 ",Excess,4,Archaelogical Buffer Known Slide Area Liquefaction Zone Potential Slide Area,Green Space/Natural Area,,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,1588,Slope at 2348 Perkins Lane W,2348 Perkins Ln W," 5,764 ",Excess,2,,Slope Protection,,Owned,Difficult building site,Steep slope
+FAS,Finance & Admin Svcs,4253,Snippet at 7609 6th Ave NE,7604 Banner Way NE," 5,757 ",Excess,1,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1654,Ravine At 9628 Renton Ave S,9628 Renton Ave S," 4,949 ",Excess,4,Riparian Corridor,Drainage (Natural),,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,66,Parcel at 280 NW Market St,280 NW Market St," 4,395 ",Excess,1,40% Steep Slope,Slope Protection,,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,4330,Parcel at 100 MLK Jr Way S,100 Martin Luther King Jr Way," 4,063 ",Excess,4,40% Steep Slope,Landscaping,,Owned,Potential sale; proceeds to OH,No OH interest due to size
+FAS,Finance & Admin Svcs,68,Parcel at 400 NW Market St,400 NW Market St," 3,593 ",Excess,3,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,51,Snippet at 1500 W Nickerson St,1500 W Nickerson St," 3,539 ",Excess,8,40% Steep Slope Archaelogical Buffer Liquefaction Zone,Storage (Uncovered),,Owned,Snippet,
+FAS,Finance & Admin Svcs,1658,Parcel at 5917 S Hazel St,5917 S Hazel St," 3,327 ",Excess,2,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),,Owned,Difficult building site,Interior block w/ drive; sell
+FAS,Finance & Admin Svcs,1600,Parcel at 1323 29th Ave S,1323 29th Ave S," 3,300 ",Excess,3,,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to size and encroachment issues.
+FAS,Finance & Admin Svcs,82,Parcel at 2298 Sylvan Way SW,2298 Sylvan Way SW," 3,168 ",Excess,3,,Landscaping,,Owned,Potential sale; proceeds to OH,"GMP funds, adj. commercial. No OH interest due to size"
+FAS,Finance & Admin Svcs,4054,Parcel at 6th Ave W & W Bertona,527 W Emerson St," 3,056 ",Excess,4,Potential Slide Area,Green Space/Natural Area,,Owned,Retain for City use,Portion of landscaped street triangle
+FAS,Finance & Admin Svcs,4331,Snippet at 102 MLK Jr Way S,102 Martin Luther King Jr Way S," 2,947 ",Excess,4,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4276,Parcel at 7342 11th Ave NE,7342 11th Ave NE," 2,799 ",Excess,1,,Landscaping,,Owned,Difficult building site,Narrow lot
+FAS,Finance & Admin Svcs,1429,Snippet at 3601 York Rd S,3601 York Rd S," 2,191 ",Excess,1,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,63,Parcel at 180 NW Market St,180 NW Market St," 2,171 ",Excess,,,Slope Protection,,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,3744,Snippet at 1520 N Northgate Way,1520 N Northgate Way," 2,145 ",Excess,Single Family 7200 ,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),,Owned,Snippet,
-FAS,Finance & Admin Svcs,4335,Parcel at 2710 S Main St,2710 S Main St," 2,128 ",Excess,Single Family 5000 ,,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to size
-FAS,Finance & Admin Svcs,69,Parcel at 4502 Midvale Ave N,4502 Midvale Ave N," 1,929 ",Excess,Lowrise 2 ,,Landscaping,,Owned,Restricted Funding,Transfer to SDOT - street triangle.
-FAS,Finance & Admin Svcs,4535,Snippet at 7343 12th Ave NE,7343 12th Ave NE," 1,809 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,3744,Snippet at 1520 N Northgate Way,1520 N Northgate Way," 2,145 ",Excess,2,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),,Owned,Snippet,
+FAS,Finance & Admin Svcs,4335,Parcel at 2710 S Main St,2710 S Main St," 2,128 ",Excess,1,,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to size
+FAS,Finance & Admin Svcs,69,Parcel at 4502 Midvale Ave N,4502 Midvale Ave N," 1,929 ",Excess,4,,Landscaping,,Owned,Restricted Funding,Transfer to SDOT - street triangle.
+FAS,Finance & Admin Svcs,4535,Snippet at 7343 12th Ave NE,7343 12th Ave NE," 1,809 ",Excess,1,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,53,Snippet at 5301 47th Ave SW,5301 47th Ave SW," 1,759 ",Excess,,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,85,Parcel at 9399 8th Ave SW,9399 8th Ave SW," 1,699 ",Excess,Single Family 7200 ,,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to size
-FAS,Finance & Admin Svcs,62,Parcel at 104 NW 47th,104 NW 47th St," 1,673 ",Excess,Single Family 5000 ,40% Steep Slope,Excess Right-of-Way,,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,4533,Snippet at 8520 2nd Ave NE,8520 2nd Ave NE," 1,623 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1573,Snippet at 8526 2nd Ave NE,8526 2nd Ave NE," 1,618 ",Excess,Single Family 5000,40% Steep Slope,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1556,Snippet at 3499 Arapahoe Pl W,3499 Arapahoe Pl W," 1,554 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,85,Parcel at 9399 8th Ave SW,9399 8th Ave SW," 1,699 ",Excess,2,,Vacant (Undeveloped),,Owned,Potential sale; proceeds to OH,No OH interest due to size
+FAS,Finance & Admin Svcs,62,Parcel at 104 NW 47th,104 NW 47th St," 1,673 ",Excess,1,40% Steep Slope,Excess Right-of-Way,,Owned,Difficult building site,
+FAS,Finance & Admin Svcs,4533,Snippet at 8520 2nd Ave NE,8520 2nd Ave NE," 1,623 ",Excess,1,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1573,Snippet at 8526 2nd Ave NE,8526 2nd Ave NE," 1,618 ",Excess,1,40% Steep Slope,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1556,Snippet at 3499 Arapahoe Pl W,3499 Arapahoe Pl W," 1,554 ",Excess,1,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,64,Parcel at 201 NW 50th St,201 NW 50th St," 1,533 ",Excess,,,Slope Protection,,Owned,Difficult building site,
-FAS,Finance & Admin Svcs,4534,Snippet at 8515 Latona Ave NE,8515 Latona Ave NE," 1,500 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4332,Snippet at 2715 E Yesler Way,2715 E Yesler Way," 1,400 ",Excess, Lowrise 2 ,,Parking,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4534,Snippet at 8515 Latona Ave NE,8515 Latona Ave NE," 1,500 ",Excess,1,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4332,Snippet at 2715 E Yesler Way,2715 E Yesler Way," 1,400 ",Excess,4,,Parking,,Owned,Snippet,
 FAS,Finance & Admin Svcs,67,Snippet at 5300 NW 53rd St,5300 NW 53rd St," 1,364 ",Excess,,,Slope Protection,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1574,Snippet at 8521 Latona Ave NE,8521 Latona Ave NE," 1,171 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1626,Snippet at 5655 31st Ave SW,5655 31st Ave SW," 1,150 ",Excess,Single Family 5000 ,40% Steep Slope Salmon Watershed,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4327,Snippet at 138 MLK Jr Way,138 Martin Luther King Jr Way," 1,128 ",Excess,Lowrise 2 ,40% Steep Slope,Slope Protection,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4328,Snippet at 146 MLK Jr Way,146 Martin Luther King Jr Way," 1,128 ",Excess,Lowrise 2 ,40% Steep Slope,Slope Protection,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4329,Snippet at 116 MLK Jr Way,116 Martin Luther King Jr Way," 1,128 ",Excess,Lowrise 2 ,40% Steep Slope,Slope Protection,,Owned,Snippet,
-FAS,Finance & Admin Svcs,84,Parcel at  4707 Woodland Park Ave N,4707 Woodland Park Ave N," 1,055 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1574,Snippet at 8521 Latona Ave NE,8521 Latona Ave NE," 1,171 ",Excess,1,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1626,Snippet at 5655 31st Ave SW,5655 31st Ave SW," 1,150 ",Excess,1,40% Steep Slope Salmon Watershed,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4327,Snippet at 138 MLK Jr Way,138 Martin Luther King Jr Way," 1,128 ",Excess,4,40% Steep Slope,Slope Protection,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4328,Snippet at 146 MLK Jr Way,146 Martin Luther King Jr Way," 1,128 ",Excess,4,40% Steep Slope,Slope Protection,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4329,Snippet at 116 MLK Jr Way,116 Martin Luther King Jr Way," 1,128 ",Excess,4,40% Steep Slope,Slope Protection,,Owned,Snippet,
+FAS,Finance & Admin Svcs,84,Parcel at  4707 Woodland Park Ave N,4707 Woodland Park Ave N," 1,055 ",Excess,1,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,4593,Parcel at 5023 Baker Ave NW,5023 Baker Ave NW," 1,013 ",Excess,,,Landscaping,,Owned,Difficult building site,
 FAS,Finance & Admin Svcs,1554,Snippet at 14031 Ashworth Ave N,14031 Ashworth Ave N," 1,006 ",Excess,,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,1662,Snippet at 11192 Beacon Ave S,11192 Beacon Ave S," 1,000 ",Excess,,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1625,"56th Ave S Roadway, 5595 56th Ave S",5595 56th Ave S, 972 ,Excess,Single Family 7200 ,,Roadway,,Owned,Retain for City use,Transfer to SDOT - roadway use
-FAS,Finance & Admin Svcs,1623,"56th Ave S Roadway, 5593 56th Ave S",5593 56th Ave S, 960 ,Excess,Single Family 7200 ,,Roadway,,Owned,Retain for City use,Transfer to SDOT - roadway use
-FAS,Finance & Admin Svcs,42,Snippet at 2330 12th Ave S,2330 12th Ave S, 825 ,Excess,Single Family 5000 ,40% Steep Slope Potential Slide Area Wildlife Preservation Area,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4526,Snippet at 3614 50th Ave SW,3614 50th Ave SW, 783 ,Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,1091,Snippet at 4920 SW Charlestown St,4920 SW Charlestown St, 780 ,Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
-FAS,Finance & Admin Svcs,4527,Snippet At 3620 50th Ave SW,3620 50th Ave SW, 780 ,Excess,Single Family 5000 ,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1625,"56th Ave S Roadway, 5595 56th Ave S",5595 56th Ave S, 972 ,Excess,2,,Roadway,,Owned,Retain for City use,Transfer to SDOT - roadway use
+FAS,Finance & Admin Svcs,1623,"56th Ave S Roadway, 5593 56th Ave S",5593 56th Ave S, 960 ,Excess,2,,Roadway,,Owned,Retain for City use,Transfer to SDOT - roadway use
+FAS,Finance & Admin Svcs,42,Snippet at 2330 12th Ave S,2330 12th Ave S, 825 ,Excess,1,40% Steep Slope Potential Slide Area Wildlife Preservation Area,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4526,Snippet at 3614 50th Ave SW,3614 50th Ave SW, 783 ,Excess,1,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,1091,Snippet at 4920 SW Charlestown St,4920 SW Charlestown St, 780 ,Excess,1,,Landscaping,,Owned,Snippet,
+FAS,Finance & Admin Svcs,4527,Snippet At 3620 50th Ave SW,3620 50th Ave SW, 780 ,Excess,1,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,4528,Snippet At 3626 50th Ave SW,3626 50th Ave SW, 780 ,Excess,,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,1659,Snippet at 5615 S Leo St,5615 S Leo St, 740 ,Excess,,,Landscaping,,Owned,Snippet,
 FAS,Finance & Admin Svcs,4532,Snippet At 3648 50th Ave SW,3648 50th Ave SW, 731 ,Excess,,,Landscaping,,Owned,Snippet,
@@ -123,47 +123,47 @@ FAS,Finance & Admin Svcs,3752,Snippet at 3815 Linden Ave N,3815 Linden Ave N, 60
 FAS,Finance & Admin Svcs,4518,Snippet at 1760 Alki Ave SW,1760 Alki Ave SW, 58 ,Excess,,,Landscaping,,Owned,Snippet,
 Parks,Parks and Recreation,9040,Red Barn Ranch,"17601 SE Lake Moneysmith Rd,King Co"," 1,685,336 ",Excess,,,Park/Playground/Viewpoint,,Owned,Outside City limits,
 SCL,Seattle City Light,4171,Roy Street Shops,800  Aloha St," 65,677 ",Excess,,,Warehouse / Storage (Covered ),,Owned,In Process,8th and Roy parcel. In process with potential RFP package to be proposed later in 2016
-SCL,Seattle City Light,677,Arbor Heights Substation Site,9450 34th Ave SW," 13,402 ",Excess,Single Family 5000 ,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),,Owned,,
-SCL,Seattle City Light,3945,Roxbury Substation Site,9370 52nd Ave S," 11,350 ",Excess,Single Family 5000 ,,Vacant (Undeveloped),,Owned,,
-SCL,Seattle City Light,678,Lakewood Substation Site- Ptn of Genesee Park,4323 S Genesee St," 10,339 ",Excess,Single Family 7200 ,,Park/Playground/Viewpoint,,Part of Another PMA,Restricted Funding,
-SCL,Seattle City Light,3986,Interbay Substation Site,2000 13th Ave W," 8,397 ",Excess,Lowrise 2 ,40% Steep Slope Potential Slide Area,Vacant (Undeveloped),,Owned,Restricted Funding,
-SCL,Seattle City Light,519,Loyal Heights Substation Site,7750 28th Ave NW," 8,152 ",Excess,Lowrise 2 Residential/Commercial ,,Vacant (Undeveloped),,Owned,Restricted Funding,
-SCL,Seattle City Light,4549,Residential Rental,3814 4th Ave NE," 8,029 ",Excess,Industrial Commercial-45 ,Archaelogical Buffer,Residential,,Owned,Restricted Funding,
+SCL,Seattle City Light,677,Arbor Heights Substation Site,9450 34th Ave SW," 13,402 ",Excess,1,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),,Owned,,
+SCL,Seattle City Light,3945,Roxbury Substation Site,9370 52nd Ave S," 11,350 ",Excess,1,,Vacant (Undeveloped),,Owned,,
+SCL,Seattle City Light,678,Lakewood Substation Site- Ptn of Genesee Park,4323 S Genesee St," 10,339 ",Excess,2,,Park/Playground/Viewpoint,,Part of Another PMA,Restricted Funding,
+SCL,Seattle City Light,3986,Interbay Substation Site,2000 13th Ave W," 8,397 ",Excess,4,40% Steep Slope Potential Slide Area,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,519,Loyal Heights Substation Site,7750 28th Ave NW," 8,152 ",Excess,4,,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,4549,Residential Rental,3814 4th Ave NE," 8,029 ",Excess,9,Archaelogical Buffer,Residential,,Owned,Restricted Funding,
 SCL,Seattle City Light,4026,Battery Street Substation- Former,2330 Western Ave," 7,359 ",Excess,,,Unused (Vacant Improved),Not available,Owned,Restricted Funding,
-SCL,Seattle City Light,676,North Beach Substation Site,9407 19th Ave NW," 6,585 ",Excess,Single Family 5000 ,,Vacant (Undeveloped),,Owned,Restricted Funding,
-SCL,Seattle City Light,560,Sunset Substation Site,3209 NW 65th St," 6,298 ",Excess,Neighborhood Commercial1-30 ,,Vacant (Undeveloped),,Owned,Restricted Funding,
-SCL,Seattle City Light,551,Phinney Substation Site,6109 Phinney Ave N," 6,000 ",Excess,Neighborhood Commercial1-30 ,,Vacant (Undeveloped),,Owned,Restricted Funding,
-SCL,Seattle City Light,621,Dawson Substation,5211 47th Ave SW," 5,673 ",Excess,Single Family 5000 ,,Substation,,Owned,,
-SCL,Seattle City Light,3893,Ballard Substation Site,6730 24th Ave NW," 5,139 ",Excess,Lowrise 2 ,,Vacant (Undeveloped),,Owned,Restricted Funding,
-SCL,Seattle City Light,622,Thorndyke Substation,2333 W Boston St," 4,885 ",Excess,Lowrise 3 ,40% Steep Slope Potential Slide Area,Substation,,Owned,Restricted Funding,
-SCL,Seattle City Light,626,Morgan Street Substation,4118 SW Morgan St," 4,537 ",Excess,Neighborhood Commercial3-30 ,,Vacant (Undeveloped),,Owned,,
-SCL,Seattle City Light,570,Monroe Substation Site,1405 NW 65th St," 4,036 ",Excess,Lowrise 3,,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,676,North Beach Substation Site,9407 19th Ave NW," 6,585 ",Excess,1,,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,560,Sunset Substation Site,3209 NW 65th St," 6,298 ",Excess,10,,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,551,Phinney Substation Site,6109 Phinney Ave N," 6,000 ",Excess,10,,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,621,Dawson Substation,5211 47th Ave SW," 5,673 ",Excess,1,,Substation,,Owned,,
+SCL,Seattle City Light,3893,Ballard Substation Site,6730 24th Ave NW," 5,139 ",Excess,4,,Vacant (Undeveloped),,Owned,Restricted Funding,
+SCL,Seattle City Light,622,Thorndyke Substation,2333 W Boston St," 4,885 ",Excess,5,40% Steep Slope Potential Slide Area,Substation,,Owned,Restricted Funding,
+SCL,Seattle City Light,626,Morgan Street Substation,4118 SW Morgan St," 4,537 ",Excess,11,,Vacant (Undeveloped),,Owned,,
+SCL,Seattle City Light,570,Monroe Substation Site,1405 NW 65th St," 4,036 ",Excess,5,,Vacant (Undeveloped),,Owned,Restricted Funding,
 SCL,Seattle City Light,528,"Alley in Block 48, State Plat 3-25-4",NE 65th St betw 49th & 50th Ave NE," 3,844 ",Excess,,,Alley Use,,Owned,Restricted Funding,
 SDOT,Dept of Transportation,4375,Ballard Terminal Rail Road Parcels on Real Ppty,Various Locations," 214,244 ",Excess,,,Unused (Vacant Improved),,Owned,Restricted Funding,
-SDOT,Dept of Transportation,4551,Glassyard Property,7115 2nd Ave SW," 165,725 ",Excess,Industrial General2 Unlimited/85 ,,Storage (Uncovered),,Owned,Restricted Funding,
+SDOT,Dept of Transportation,4551,Glassyard Property,7115 2nd Ave SW," 165,725 ",Excess,8,,Storage (Uncovered),,Owned,Restricted Funding,
 SDOT,Dept of Transportation,3800,Orchard Corners PMA- Number 3800,2199 SW Orchard St," 65,812 ",Excess,,,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3796,Parcel at 1898 SW Orchard St,1898 SW Orchard St," 60,736 ",Excess,Single Family 5000 ,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3796,Parcel at 1898 SW Orchard St,1898 SW Orchard St," 60,736 ",Excess,1,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
 SDOT,Dept of Transportation,3324,Mercer Corridor Project- 800 Mercer St,800 Mercer St," 54,275 ",Excess,,,Transportation Uses,,Owned,In Process,Megablock. In process with potential RFP package to be proposed later in 2016
 SDOT,Dept of Transportation,3799,Orchard Corners PMA- Number 3799,7398 21st Ave SW," 34,705 ",Excess,,,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
 SDOT,Dept of Transportation,3797,Parcel at 1999 SW Orchard St,1999 SW Orchard St," 32,368 ",Excess,,,Slope Protection,,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3782,Graham St Parcel,2201 S Graham St," 31,829 ",Excess,Single Family 5000 ,,Roadway,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3782,Graham St Parcel,2201 S Graham St," 31,829 ",Excess,1,,Roadway,,Owned,Restricted Funding,
 SDOT,Dept of Transportation,4186,Building at 620 Aurora Ave N,620 Aurora Ave N," 24,182 ",Excess,,,Commercial Use,,Owned,In Process,Copiers NW building. In process with potential RFP package to be proposed later in 2016
-SDOT,Dept of Transportation,3794,Parcel at 7015 18th Ave SW,7015 18th Ave SW," 19,284 ",Excess,Single Family 5000 ,40% Steep Slope Salmon Watershed Wetlands,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3750,Excess R/W at Seaview Ave NW,5980 Seaview Ave NW," 19,118 ",Excess,Single Family 5000 ,40% Steep Slope,Slope Protection,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3794,Parcel at 7015 18th Ave SW,7015 18th Ave SW," 19,284 ",Excess,1,40% Steep Slope Salmon Watershed Wetlands,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3750,Excess R/W at Seaview Ave NW,5980 Seaview Ave NW," 19,118 ",Excess,1,40% Steep Slope,Slope Protection,,Owned,Restricted Funding,
 SDOT,Dept of Transportation,3798,Parcel at 7398 Delridge Wy SW,7398 Delridge Way SW," 16,088 ",Excess,,,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3784,Excess R/W at 2202 S Graham St,2202 S Graham St," 12,736 ",Excess,Single Family 5000 ,40% Steep Slope,Slope Protection,,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3801,Orchard Corners PMA- Number 3801,7598 Delridge Way SW," 12,422 ",Excess,Single Family 5000 ,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3795,Parcel at 7045 18th Ave SW,7045 18th Ave SW," 11,146 ",Excess,Single Family 5000 ,40% Steep Slope Salmon Watershed Wetlands,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
-SDOT,Dept of Transportation,4570,Burke-Gilman Trail Property used by Halleerod LLC,3935 Leary Way NW," 10,020 ",Excess,Industrial General2 Unlimited/45 ,,Parking,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3784,Excess R/W at 2202 S Graham St,2202 S Graham St," 12,736 ",Excess,1,40% Steep Slope,Slope Protection,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3801,Orchard Corners PMA- Number 3801,7598 Delridge Way SW," 12,422 ",Excess,1,40% Steep Slope Salmon Watershed,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3795,Parcel at 7045 18th Ave SW,7045 18th Ave SW," 11,146 ",Excess,1,40% Steep Slope Salmon Watershed Wetlands,Vacant (Undeveloped),Roadway,Owned,Restricted Funding,
+SDOT,Dept of Transportation,4570,Burke-Gilman Trail Property used by Halleerod LLC,3935 Leary Way NW," 10,020 ",Excess,8,,Parking,,Owned,Restricted Funding,
 SDOT,Dept of Transportation,4192,Mercer Corridor Parking Lot-  650 Dexter Ave N,650 Dexter Ave N," 9,530 ",Excess,,,Parking,,Owned,Restricted Funding,
 SDOT,Dept of Transportation,4193,Mercer Corridor Store- 900 Broad St,900 Broad St," 7,665 ",Excess,,,Commercial Use,,Owned,In Process,In process.  Looking at potential city uses on this site.
 SDOT,Dept of Transportation,4373,Bright St Parcel- Former BNRR R/W,NW Bright St & Leary Way NW," 6,717 ",Excess,,,Vacant (Undeveloped),,Owned,Restricted Funding,
 SDOT,Dept of Transportation,4184,Parcel at 614 Roy St,614 Roy St," 6,645 ",Excess,,,Vacant (Undeveloped),,Owned,In Process,In process.  Looking at potential city uses on this site.
 SDOT,Dept of Transportation,4183,Parcel at 560 Roy St,560 Roy St," 6,365 ",Excess,,,Parking,,Owned,In Process,In process.  Looking at potential city uses on this site.
-SDOT,Dept of Transportation,4073,Banner Way Triangle,7802 Banner Way NE," 5,884 ",Excess,Single Family 5000 ,,Landscaping,,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3635,Excess R/W at 2198 Dexter Ave N,2198 Dexter Way N," 5,477 ",Excess,Lowrise 3 ,40% Steep Slope Potential Slide Area,Slope Protection,,Owned,Restricted Funding,
-SDOT,Dept of Transportation,4077,Building at 805 NE Northlake Pl,805 NE Northlake Pl," 2,833 ",Excess,Major Institution Overlay-65-Industrial Commercial-45 ,Archaelogical Buffer,Unused (Vacant Improved),,Owned,Restricted Funding,
-SDOT,Dept of Transportation,3781,56th Ave S Roadway,5597 56th Ave S," 1,200 ",Excess,Single Family 7200 ,,Roadway,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,4073,Banner Way Triangle,7802 Banner Way NE," 5,884 ",Excess,1,,Landscaping,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3635,Excess R/W at 2198 Dexter Ave N,2198 Dexter Way N," 5,477 ",Excess,5,40% Steep Slope Potential Slide Area,Slope Protection,,Owned,Restricted Funding,
+SDOT,Dept of Transportation,4077,Building at 805 NE Northlake Pl,805 NE Northlake Pl," 2,833 ",Excess,9,Archaelogical Buffer,Unused (Vacant Improved),,Owned,Restricted Funding,
+SDOT,Dept of Transportation,3781,56th Ave S Roadway,5597 56th Ave S," 1,200 ",Excess,2,,Roadway,,Owned,Restricted Funding,
 SDOT,Dept of Transportation,1069,Snippet at 7031 3rd Ave NW,7031 3rd Ave NW, 523 ,Excess,,,Landscaping,,Owned,Restricted Funding,
 SPU,Seattle Public Utilities,1260,Eastside Reservoir,"146th Ave SE & SE 45th St, Bellevue"," 383,896 ",Excess,,,Water Use,,Owned,Restricted Funding,
 SPU,Seattle Public Utilities,9190,Lake Youngs Aqueduct R/W Excess Parcel B,Lake Youngs Aqu R/W in SE-18-22-6," 64,033 ",Excess,,,Vacant (Undeveloped),,Owned,Outside City limits,
