@@ -1,82 +1,249 @@
 $(function () {
-    // Set global variables (width, height, etc.)
-    var width = 1240,
-        height = 700;
+    var width = 960,
+        height = 500,
+        centered;
 
-    // Create svg and g elements
-    var svg = d3.select("#vis")
-                .append('svg')
-                .attr('height', height)
-                .attr('width', width);
-    // Legend
-    var g = svg.append('g')
-        .attr('class', 'legend')
-        .attr("transform", "translate(950,200)");
+    // Define color scale
+    var color = d3.scaleLinear()
+        .domain([1, 20])
+        .clamp(true)
+        .range(['#fff', '#409A99']);
 
-    // Create a color scale
-    var color = d3.scaleThreshold();
-    var expectancy = d3.map();
-    var path = d3.geoPath();
-    var min = 66; 
-    var max = 86;
+    var projection = d3.geoMercator()
+        .scale(1500)
+        // Center the Map in Colombia
+        .center([-74, 4.5])
+        .translate([width / 2, height / 2]);
 
-    console.log("Ready!");
-    // Load and prep data and shapefile
-    var url = "website/data/seattle-zipcodes.geojson";
-    // var csvData = "data/ihme-life-expectancy.csv";
+    var path = d3.geoPath()
+        .projection(projection);
 
-    d3.queue()
-        .defer(d3.json, url)
-    //     .defer(d3.csv, csvData, function (e) {
-    //         // Correct codes with just 4 characters
-    //         if (e["FIPS"].length == 4) {
-    //             e["FIPS"] = "0" + e["FIPS"]
-    //         }
-            
-    //         // Use only those with 5 characters
-    //         if (e.FIPS.length === 5) {
-    //             Object.keys(e).slice(2).map(function (key, index) {
-    //                 e[key] = parseFloat(e[key].split(" ")[0])
-    //             });
-    //             // Values to use
-    //             expectancy.set(e["FIPS"], +e["Life expectancy, 2014*"]);
-    //         }
-    //     })
-    //     .await(ready);
+    // Set svg width & height
+    var svg = d3.select('#affordability-chloropleth-seattle')
+        .attr('width', width)
+        .attr('height', height);
 
-    // Function once data and shapefile are loaded
-    function ready(error, us) {
-        // Set color scale domain
-        let min = d3.min(expectancy.values());
-        let max = d3.max(expectancy.values());
+    // Add background
+    svg.append('rect')
+        .attr('class', 'background')
+        .attr('width', width)
+        .attr('height', height)
+        .on('click', clicked);
 
-        color.domain(d3.range(min, max, ((max - min) / 5)))
-            .range(d3.schemeRdBu[6]);
+    var g = svg.append('g');
 
-        // Append and draw counties (with transition)
-        // var counties = svg.append("g")
-        //     .attr("class", "counties")
-        //     .selectAll("path")
-        //     .data(topojson.feature(us, us.objects.counties).features)
-        //     .enter().append("path")
-        //     .attr("fill", function(d) { return color(d["Life expectancy, 2014*"] = expectancy.get(d.id)); })
-        //     .transition()
-        //     .delay(function(d) { return d["Life expectancy, 2014*"] ** 2 - min ** 2 + 80; })
-        //     .attr("d", path);
+    var effectLayer = g.append('g')
+        .classed('effect-layer', true);
 
-        // Draw state paths
-        // var states = svg.append("path")
-        //     .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-        //     .attr("class", "states")
-        //     .attr("d", path);
-        
-        // Append a legend using d3.legend
-        // var legend = d3.legendColor()
-        //     .title("Life Expectancy (years)")
-        //     .labelFormat(d3.format(".0f"))
-        //     .labels(d3.legendHelpers.thresholdLabels)
-        //     .scale(color);
+    var mapLayer = g.append('g')
+        .classed('map-layer', true);
 
-        // g.call(legend); 
+    var dummyText = g.append('text')
+        .classed('dummy-text', true)
+        .attr('x', 10)
+        .attr('y', 30)
+        .style('opacity', 0);
+
+    var bigText = g.append('text')
+        .classed('big-text', true)
+        .attr('x', 20)
+        .attr('y', 45);
+
+    // Load map data
+    d3.json('website/data/colombia.geo.json', function (error, mapData) {
+        var features = mapData.features;
+
+        // Update color scale domain based on data
+        color.domain([0, d3.max(features, nameLength)]);
+
+        // Draw each province as a path
+        mapLayer.selectAll('path')
+            .data(features)
+            .enter().append('path')
+            .attr('d', path)
+            .attr('vector-effect', 'non-scaling-stroke')
+            .style('fill', fillFn)
+            .on('mouseover', mouseover)
+            .on('mouseout', mouseout)
+            .on('click', clicked);
+    });
+
+    // Get province name
+    function nameFn(d) {
+        return d && d.properties ? d.properties.NOMBRE_DPT : null;
+    }
+
+    // Get province name length
+    function nameLength(d) {
+        var n = nameFn(d);
+        return n ? n.length : 0;
+    }
+
+    // Get province color
+    function fillFn(d) {
+        return color(nameLength(d));
+    }
+
+    // When clicked, zoom in
+    function clicked(d) {
+        var x, y, k;
+
+        // Compute centroid of the selected path
+        if (d && centered !== d) {
+            var centroid = path.centroid(d);
+            x = centroid[0];
+            y = centroid[1];
+            k = 4;
+            centered = d;
+        } else {
+            x = width / 2;
+            y = height / 2;
+            k = 1;
+            centered = null;
+        }
+
+        // Highlight the clicked province
+        mapLayer.selectAll('path')
+            .style('fill', function (d) { return centered && d === centered ? '#D5708B' : fillFn(d); });
+
+        // Zoom
+        g.transition()
+            .duration(750)
+            .attr('transform', 'translate(' + width / 2 + ',' + height / 2 + ')scale(' + k + ')translate(' + -x + ',' + -y + ')');
+    }
+
+    function mouseover(d) {
+        // Highlight hovered province
+        d3.select(this).style('fill', 'orange');
+
+        // Draw effects
+        textArt(nameFn(d));
+    }
+
+    function mouseout(d) {
+        // Reset province color
+        mapLayer.selectAll('path')
+            .style('fill', function (d) { return centered && d === centered ? '#D5708B' : fillFn(d); });
+
+        // Remove effect text
+        effectLayer.selectAll('text').transition()
+            .style('opacity', 0)
+            .remove();
+
+        // Clear province name
+        bigText.text('');
+    }
+
+    // Gimmick
+    // Just me playing around.
+    // You won't need this for a regular map.
+
+    var BASE_FONT = "'Helvetica Neue', Helvetica, Arial, sans-serif";
+
+    var FONTS = [
+        "Open Sans",
+        "Josefin Slab",
+        "Arvo",
+        "Lato",
+        "Vollkorn",
+        "Abril Fatface",
+        "Old StandardTT",
+        "Droid+Sans",
+        "Lobster",
+        "Inconsolata",
+        "Montserrat",
+        "Playfair Display",
+        "Karla",
+        "Alegreya",
+        "Libre Baskerville",
+        "Merriweather",
+        "Lora",
+        "Archivo Narrow",
+        "Neuton",
+        "Signika",
+        "Questrial",
+        "Fjalla One",
+        "Bitter",
+        "Varela Round"
+    ];
+
+    function textArt(text) {
+        // Use random font
+        var fontIndex = Math.round(Math.random() * FONTS.length);
+        var fontFamily = FONTS[fontIndex] + ', ' + BASE_FONT;
+
+        bigText
+            .style('font-family', fontFamily)
+            .text(text);
+
+        // Use dummy text to compute actual width of the text
+        // getBBox() will return bounding box
+        dummyText
+            .style('font-family', fontFamily)
+            .text(text);
+        var bbox = dummyText.node().getBBox();
+
+        var textWidth = bbox.width;
+        var textHeight = bbox.height;
+        var xGap = 3;
+        var yGap = 1;
+
+        // Generate the positions of the text in the background
+        var xPtr = 0;
+        var yPtr = 0;
+        var positions = [];
+        var rowCount = 0;
+        while (yPtr < height) {
+            while (xPtr < width) {
+                var point = {
+                    text: text,
+                    index: positions.length,
+                    x: xPtr,
+                    y: yPtr
+                };
+                var dx = point.x - width / 2 + textWidth / 2;
+                var dy = point.y - height / 2;
+                point.distance = dx * dx + dy * dy;
+
+                positions.push(point);
+                xPtr += textWidth + xGap;
+            }
+            rowCount++;
+            xPtr = rowCount % 2 === 0 ? 0 : -textWidth / 2;
+            xPtr += Math.random() * 10;
+            yPtr += textHeight + yGap;
+        }
+
+        var selection = effectLayer.selectAll('text')
+            .data(positions, function (d) { return d.text + '/' + d.index; });
+
+        // Clear old ones
+        selection.exit().transition()
+            .style('opacity', 0)
+            .remove();
+
+        // Create text but set opacity to 0
+        selection.enter().append('text')
+            .text(function (d) { return d.text; })
+            .attr('x', function (d) { return d.x; })
+            .attr('y', function (d) { return d.y; })
+            .style('font-family', fontFamily)
+            .style('fill', '#777')
+            .style('opacity', 0);
+
+        selection
+            .style('font-family', fontFamily)
+            .attr('x', function (d) { return d.x; })
+            .attr('y', function (d) { return d.y; });
+
+        // Create transtion to increase opacity from 0 to 0.1-0.5
+        // Add delay based on distance from the center of the <svg> and a bit more randomness.
+        selection.transition()
+            .delay(function (d) {
+                return d.distance * 0.01 + Math.random() * 1000;
+            })
+            .style('opacity', function (d) {
+                return 0.1 + Math.random() * 0.4;
+            });
     }
 });
