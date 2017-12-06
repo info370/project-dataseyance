@@ -50,7 +50,8 @@ $(function () {
         .attr('y', 45);
 
     // Load map data
-    d3.json('website/data/colombia.geo.json', function (error, mapData) {
+    // d3.json('website/data/colombia.geo.json', function (error, mapData) {
+    d3.json('website/data/seattle-zipcodes.geo.json', function (error, mapData) {
         var features = mapData.features;
 
         // Update color scale domain based on data
@@ -66,11 +67,14 @@ $(function () {
             .on('mouseover', mouseover)
             .on('mouseout', mouseout)
             .on('click', clicked);
+
+            console.log("Loading data");
     });
 
     // Get province name
     function nameFn(d) {
         return d && d.properties ? d.properties.NOMBRE_DPT : null;
+        // return d && d.properties ? d.properties.GEOID10 : null;
     }
 
     // Get province name length
