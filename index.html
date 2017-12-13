@@ -93,11 +93,12 @@
             </p>
 
             <p>
-                It is only natural to ask how much land the City owns. How much of this is suitable for new homes?
+                Given the proposal, it's natural to ask about the land the City owns. How much of this is suitable for new homes?
                 How many people could we house on this land? At what cost?
                 But, before we try to find out whether this is a good solution, we need to understand what is a good solution. 
-                HALA was shooting for 20,000 affordable units and 30,000 units added at market price.
-                We begin this study by understanding how many people are burdened by the rent they pay. 
+                HALA's goals included creating 20,000 affordable housing units and 30,000 housing units at market price.
+                Because we want to focus specifically on the affordable housing part, we begin our study by finding out how many 
+                people are burdened by the rent they pay. 
                 We then move on to the viability of the proposal.
                 Let's go down the rabbit hole!
             </p>
@@ -109,21 +110,26 @@
         <div class="container">
             <h2>How much are people paying right now?</h2>
             <p>
-                When we look at income, rent and cost of essentials in Seattle we can understand economic pressures people might be facing.
-                We used IRS tax-bracket data for the city of Seattle to establish a starting point for our investigation. Against the tax-bracket data
-                we can overlay certain cost values to see how affordability differs for different income-levels. The next most important metric was
-                rent data. Using Zillow's API we retrieved rent data for all the zipcodes in Seattle. We calculated the cost of essentials using the
-                USDA's nutrition guidelines and cost retrieved from the Bureau of Labor Statistic's average food cost calculations.
-                <!-- This is where kyle explains his logic for essentials costs -->
-                If you look at the model you will see the varying economic situation for given earners per zipcode, overlayed with our calculated 
-                expenses. The entry boxes let you see how different spending levels on rent produce different outcomes in terms of annual extra income.
-                Keep in mind that spending varys largely and our initial values are conservative. (Riding the bus, no medical bills, school to pay for, etc)
+                When we look at income, rent and cost of essentials in Seattle we can understand economic pressures 
+                people might be facing. We used IRS tax-bracket data for the city of Seattle to establish a starting 
+                point for our investigation. Against the tax-bracket data we can overlay certain cost values to see 
+                how affordability differs for different income-levels. The next most important metric was rent data. 
+                Using Zillow's API we retrieved rent data for all the zipcodes in Seattle.
+                
+                If you look at the model you will see the varying economic situation for given earners per zipcode, 
+                overlayed with the rent they pay. The entry boxes let you see how different spending levels on rent 
+                produce different outcomes in terms of annual extra income.
             </p>
 
             <!-- The following explanations should appear after the map, but before our HALA L.1 thing. -->
             <ul>
                 <li>Explain where we got the data for cost to build per sqft (Ethan)</li>
-                <li>Explain how we determined people who can be housed per sqft (Henry)</li>
+                <li>
+                    For each plot of land we had, we had to find zoning to find how high we could build.
+                    Using the Seattle zoning tool, we found that each zoning permit also had a minimum 
+                    requirement for the unit size, meaning we couldn't build units smaller than the size 
+                    listed.
+                </li>
             </ul>
 
             <p>
