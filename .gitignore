@@ -37,3 +37,6 @@ vignettes/*.pdf
 
 # checkpoint files suck
 .ipynb_checkpoints/*
+
+# node modules suck too
+*node_modules/*
