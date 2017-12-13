@@ -28,7 +28,7 @@ $(function () {
 
         };
         prepData();
-        console.log(chartData);
+        // console.log(chartData);
 
         // Define function to draw ScatterPlot
         var line = LineChart().selectedKeys(['China']) //DEFAULT KEYS
