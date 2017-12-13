@@ -45,7 +45,11 @@
         <div class="col-md-12 jumbotron">
             <h1>Affordable Housing in Seattle</h1>
             <p>
-                A short study of housing affordability and HALA proposals for excess land in Seattle. 
+                A study of affordability and the effect of 
+                <a href="http://murray.seattle.gov/wp-content/uploads/2015/07/HALA_Report_2015.pdf#page=20HALA">
+                    HALA Proposal L. 1
+                </a>
+                 in Seattle. 
             </p>
         </div>
     </section>
@@ -54,19 +58,28 @@
         <div class="container">
             <h2>Introduction</h2>
             <p>
-                With the highest rent increase rates in the country, for the 14th month straight, 
-                Seattle is considering measures to ensure affordable housing for those at risk. 
+                Home prices have risen in Seattle faster than anywhere else in the nation, for  
+                <a href="https://www.seattletimes.com/business/real-estate/seattle-marks-a-full-year-as-americas-hottest-housing-market-with-no-end-in-sight/">
+                    a whole year straight.  
+                </a> 
+                With other similar headlines coming up, Seattle has been taking steps to ensure 
+                affordable housing for all its inhabitants. 
             </p>
 
             <img src="./website/images/HALA_introduction.png"/>
             <p>
-                The former Seattle mayor, Ed Murray put together a committee to study and come up with solutions to the housing problem 
-                in Seattle. 
+                In 2014, former Seattle mayor, Ed Murray, put together a committee to study 
+                and come up with solutions to the housing affordability problem in Seattle. 
+                The committee created a set 65 recommendations, some of which have already
+                been enacted.
             </p>
 
             <p>
-                We plan to focus on Proposal L1 of HALA i.e. whether this proposal should be accepted or not. 
-                If the city does act upon it, to what extent?
+                For our project, we plan to focus on Proposal L. 1 of HALA and whether this proposal should be enacted, 
+                and if so, to what extent?
+                <p>
+                    The full text of the proposal is below.
+                </p>
                 <blockquote>
                     For City owned property, the City should mandate that surplus and underutilized properties that are
                     suitable for housing development be prioritized for affordable housing. It should explicitly allow the sale
@@ -78,18 +91,19 @@
                     of affordable housing in conjunction with new public buildings and investments such as
                     community centers, libraries, public schools, and other institutions of learning.
                 </blockquote>
-                </p>
+            </p>
             <p>
                 To summarize, the proposal wants to build housing on underutilized land, that the City already owns. 
                 If the land isn't suitable for homes, then the proceedings from the sale go directly towards affordable housing.
             </p>
 
             <p>
-                It is only natural to ask how much land the City owns. How much of this is suitable for new homes?
+                Given the proposal, it's natural to ask about the land the City owns. How much of this is suitable for new homes?
                 How many people could we house on this land? At what cost?
                 But, before we try to find out whether this is a good solution, we need to understand what is a good solution. 
-                HALA was shooting for 20,000 affordable units and 30,000 units added at market price.
-                We begin this study by understanding how many people are burdened by the rent they pay. 
+                HALA's goals included creating 20,000 affordable housing units and 30,000 housing units at market price.
+                Because we want to focus specifically on the affordable housing part, we begin our study by finding out how many 
+                people are burdened by the rent they pay. 
                 We then move on to the viability of the proposal.
                 Let's go down the rabbit hole!
             </p>
@@ -101,21 +115,26 @@
         <div class="container">
             <h2>How much are people paying right now?</h2>
             <p>
-                When we look at income, rent and cost of essentials in Seattle we can understand economic pressures people might be facing.
-                We used IRS tax-bracket data for the city of Seattle to establish a starting point for our investigation. Against the tax-bracket data
-                we can overlay certain cost values to see how affordability differs for different income-levels. The next most important metric was
-                rent data. Using Zillow's API we retrieved rent data for all the zipcodes in Seattle. We calculated the cost of essentials using the
-                USDA's nutrition guidelines and cost retrieved from the Bureau of Labor Statistic's average food cost calculations.
-                <!-- This is where kyle explains his logic for essentials costs -->
-                If you look at the model you will see the varying economic situation for given earners per zipcode, overlayed with our calculated 
-                expenses. The entry boxes let you see how different spending levels on rent produce different outcomes in terms of annual extra income.
-                Keep in mind that spending varys largely and our initial values are conservative. (Riding the bus, no medical bills, school to pay for, etc)
+                When we look at income, rent and cost of essentials in Seattle we can understand economic pressures 
+                people might be facing. We used IRS tax-bracket data for the city of Seattle to establish a starting 
+                point for our investigation. Against the tax-bracket data we can overlay certain cost values to see 
+                how affordability differs for different income-levels. The next most important metric was rent data. 
+                Using Zillow's API we retrieved rent data for all the zipcodes in Seattle.
+                
+                If you look at the model you will see the varying economic situation for given earners per zipcode, 
+                overlayed with the rent they pay. The entry boxes let you see how different spending levels on rent 
+                produce different outcomes in terms of annual extra income.
             </p>
 
             <!-- The following explanations should appear after the map, but before our HALA L.1 thing. -->
             <ul>
                 <li>Explain where we got the data for cost to build per sqft (Ethan)</li>
-                <li>Explain how we determined people who can be housed per sqft (Henry)</li>
+                <li>
+                    For each plot of land we had, we had to find zoning to find how high we could build.
+                    Using the Seattle zoning tool, we found that each zoning permit also had a minimum 
+                    requirement for the unit size, meaning we couldn't build units smaller than the size 
+                    listed.
+                </li>
             </ul>
 
             <p>
