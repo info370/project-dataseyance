@@ -115,3 +115,12 @@ section#introduction {
     background-size: cover;
     height: 800px;
 }
+
+#map {
+    height: 100%;
+    margin: 80px auto;
+  }
+
+  html, body {
+    height: 100%;
+  }
