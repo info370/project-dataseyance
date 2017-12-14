@@ -94,8 +94,14 @@ footer p {
 }
 
 img {
-    margin: 36px auto;
-    max-width: 70%;
+    display: block;
+    max-width:600px;
+    max-height:800px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 42px;
+    margin-bottom: 42px;
 }
 
 
@@ -117,10 +123,11 @@ section#introduction {
 }
 
 #map {
-    height: 100%;
+    height: 80%;
+    width: 80%;
     margin: 80px auto;
-  }
+}
 
-  html, body {
+html, body {
     height: 100%;
-  }
+}
