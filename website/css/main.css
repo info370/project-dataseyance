@@ -48,6 +48,7 @@ h1, h2, h3, p {
     max-width: 600px; /* Limit the line length to around 66 characters to improve readability */
     margin-left: auto;
     margin-right: auto;
+    margin-top: 20px;
 }
 
 section h1, section h2, section h3 {
@@ -130,4 +131,19 @@ section#introduction {
 
 html, body {
     height: 100%;
+}
+
+blockquote {
+    font-style: italic;
+    font-weight: lighter;
+    padding-left: 12px;
+}
+
+li {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.case-study-key {
+    font-weight: bold;
 }
