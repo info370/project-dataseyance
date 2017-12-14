@@ -170,28 +170,62 @@
     <section id="method-excess">
         <div class="container">
             <h2>Method for Evaluating Excess Land</h2>
-            <p>For each plot of land ....</p>
+            <p>The goal of this analysis was to determine how much affordable hosuing could be built on excess/surplus/underutilized land the city owns and at what cost. Affordable housing was quantified by determining <strong>units</strong> buildable which can hold one or more people, at what cost in dollars. Cost was assessed from an <a href="http://www.turnerandtownsend.com/media/2412/international-construction-market-survey-2017-final.pdf">international survey of builders</a>. This amount was $150/sqft for townhouses, $170/sqft for low-rise, and $145/sqft for affordable units</p>
 
-            <img src="./website/images/zoningmap.jpg"/>
+            <p>To evaluate the possible costs/benefits of building on excess city land we started with the city property inventory dataset.
+            It contains information about all the land the city owns including a plot's address, classification (such as Excess,
+            Fully utilized, Surplus, or Under utilized), land square footage, and department whose juridsiction it is.</p>
+
+            <p>Zoning permit data was added to the dataset by using a <a href="http://www.seattle.gov/dpd/toolsresources/Map/default.htm">zoning lookup tool</a> on the Seattle website.</p>
+
+            <p>Our model takes in two inputs: the square footage of the land and its zoning permit. These two values are the bare
+            minimum for estimating the amount of units that could be built because while square footage tells how much land there
+            is, zoning determines things like the amount of land that can actually be built on, the minimum size for a dwelling, and
+            the maximum height that can be built. Summaries for various zoning types were obtained from the city of Seattle 
+            Department of Construction &amp Inspections <a href="http://www.seattle.gov/dpd/codesrules/codes/zoning/default.htm">zoning
+            page</a>.</p>
+
+            <p>An example of how the regulations were coded into our model is Lowrise 1 (LR1) zones. At a high level LR1 zoning requirements are:
+                <ul>
+                    <li>Their maxmimum height is 30' plus a 5' roof. </li>
+                    <li>25% of the space must be an amenity area.</li>
+                    <li>A minimum dwelling size of about 2,000 squre feet per unit.</li>
+                </ul>
+            </p>
+            <p>
+                And so if a given plot of land is zoned as LR1, our model truncates 1/4 of the square footage because it must be provided as amenity space, while also multiplying the land to account for the height maximum. The total buildable square footage is then divded by the minimum dwelling size for that zone. This is the same process as all other zonings, with buildable square footage and minimum dwelling size changing depending on the zoning.
+            </p>
+            <p>
+                The following are a few estimation of specific plots the city has already considered building on.
+            </p>
+            <!--<img src="./website/images/zoningmap.jpg"/>-->
         </div>
     
     </section>
 
     <section id="yakima" class="case-study">
         <div class="container">
-            <h2>Yakima Ave S property</h2>
+            <h2>Yakima Ave S Property Estimates</h2>
             <img src="./website/images/yakima.png"/>
-
-
+            <p>Adress: 1310 Yakima Ave S</p>
+            <p>Land Sqft: 16,476sqft</p>
+            <p>Permit Type: Lowrise 1</p>
+            <p>Estimated Buildable Sqft: 37071sqft</p>
+            <p>Estimated units: 18</p>
+            <p>Estimated cost: $6,302,070</p>
         </div>
     </section>
 
     <section id="harbor" class="case-study">
         <div class="container">
-            <h2>Habor Ave SW property</h2>
+            <h2>Habor Ave SW Property Estimate</h2>
             <img src="./website/images/harbor.png"/>
-
-
+            <p>Adress: 2765 Harbor Ave SW/p>
+            <p>Land Sqft: 20,112sqft</p>
+            <p>Permit Type: Single-Family 7200</p>
+            <p>Estimated Buildable Sqft: 7039sqft (Single-family zoning restricts buildable area to 35% of total land sqft)</p>
+            <p>Estimated units: 3</p>
+            <p>Estimated cost: $1,055,880</p>
         </div>
     </section>
 
@@ -202,13 +236,13 @@
         <p>
             These are the numbers we got. <br />
             <ol>
-                <li>Units that can be built 7,318.0</li>
-                <li>Cost of units 1,068,912,064.5</li>
-                <li>Cost per unit $146,066.1471030336</li>
+                <li>Units that can be built 7,318</li>
+                <li>Cost of units 1,068,912,064</li>
+                <li>Cost per unit $146,066</li>
           </ol>
         </p>
 
-        <p>This is what the numbers mean.</p>
+        <p>The above is our estimates for if Seattle was to develop all excess land it owns, keeping it zoned as it is, at a fixed cost/sqft to build. While the city is unlikely to zone all their property, our tool can be used to inform which zones are more beneficial than others given their zoning and size. It is possible that this tool could be used to understand how changing zoning permits for city land could build more or less land. In the following section we discuss the limitations of our method.</p>
         </div>
     </section>
 
