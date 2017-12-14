@@ -16,7 +16,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
         crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery.min.js"></script>
-    
+
     <!-- D3 -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://d3js.org/d3.v4.min.js"></script>
@@ -26,20 +26,15 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.js"></script>
     <link rel="stylesheet" href="//rawgithub.com/Caged/d3-tip/master/examples/example-styles.css">
-    
+
 
     <!-- Custom files -->
     <link rel="stylesheet" href="./website/css/main.css" />
-    <!-- <script src="./website/js/main.js"></script> -->
-    <!-- <script src="./website/js/stackedBarChart.js"></script> -->
-    <!-- <script src="./website/js/LineChart.js"></script> -->
     <script src="./website/js/googlemaps.js"></script>
-    <!-- <script src="./website/js/affordabilityMap.js"></script> -->
 
     <!-- Maps -->
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN9kZdo5cNypB9n2NJLZWd3WZ0THfEKp8&callback=initMap">
-  </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCN9kZdo5cNypB9n2NJLZWd3WZ0THfEKp8&callback=initMap">
+    </script>
 
 </head>
 
@@ -50,11 +45,11 @@
         <div class="col-md-12 jumbotron">
             <h1>Affordable Housing in Seattle</h1>
             <p>
-                A study of affordability and the effect of 
+                A study of affordability and the effect of
                 <a href="http://murray.seattle.gov/wp-content/uploads/2015/07/HALA_Report_2015.pdf#page=20HALA">
                     HALA Proposal L. 1
                 </a>
-                 in Seattle. 
+                in Seattle.
             </p>
         </div>
     </section>
@@ -63,54 +58,52 @@
         <div class="container">
             <h2>Introduction</h2>
             <p>
-                Home prices have risen in Seattle faster than anywhere else in the nation, for  
+                Home prices have risen in Seattle faster than anywhere else in the nation, for
                 <a href="https://www.seattletimes.com/business/real-estate/seattle-marks-a-full-year-as-americas-hottest-housing-market-with-no-end-in-sight/">
-                    a whole year straight.  
-                </a> 
-                With other similar headlines coming up, Seattle has been taking steps to ensure 
-                affordable housing for all its inhabitants. 
+                    a whole year straight.
+                </a>
+                With other similar headlines coming up, Seattle has been taking steps to ensure affordable housing for all its inhabitants.
             </p>
 
-            <img src="./website/images/HALA_introduction.png"/>
+            <img src="./website/images/HALA_introduction.png" />
             <p>
-                In 2014, former Seattle mayor, Ed Murray, put together a committee to study 
-                and come up with solutions to the housing affordability problem in Seattle. 
-                The committee created a set 65 recommendations, some of which have already
-                been enacted.
+                In 2014, former Seattle mayor, Ed Murray, put together a committee to study and come up with solutions to the housing affordability
+                problem in Seattle. The committee created a set 65 recommendations, some of which have already been enacted.
             </p>
 
             <p>
-                For our project, we plan to focus on Proposal L. 1 of HALA and whether this proposal should be enacted, 
-                and if so, to what extent?
+                For our project, we plan to focus on Proposal L. 1 of HALA and whether this proposal should be enacted, and if so, to what
+                extent?
                 <p>
                     The full text of the proposal is below.
                 </p>
                 <blockquote>
-                    For City owned property, the City should mandate that surplus and underutilized properties that are
-                    suitable for housing development be prioritized for affordable housing. It should explicitly allow the sale
-                    or lease of City-owned land at less than fair market value for affordable housing purposes, recognizing
-                    that this comes at a cost to other city needs and general funds. 
-                    <br /> <br />
-                    When land is not suitable for housing development, the unrestricted proceeds from sale should be
-                    dedicated to affordable housing development. The City should also create a mandate for the codevelopment
-                    of affordable housing in conjunction with new public buildings and investments such as
-                    community centers, libraries, public schools, and other institutions of learning.
+                    For City owned property, the City should mandate that surplus and underutilized properties that are suitable for housing
+                    development be prioritized for affordable housing. It should explicitly allow the sale or lease of City-owned
+                    land at less than fair market value for affordable housing purposes, recognizing that this comes at a
+                    cost to other city needs and general funds.
+                    <br />
+                    <br /> When land is not suitable for housing development, the unrestricted proceeds from sale should be dedicated
+                    to affordable housing development. The City should also create a mandate for the codevelopment of affordable
+                    housing in conjunction with new public buildings and investments such as community centers, libraries,
+                    public schools, and other institutions of learning.
                 </blockquote>
             </p>
             <p>
-                To summarize, the proposal wants to build housing on underutilized land, that the City already owns. 
-                If the land isn't suitable for homes, then the proceedings from the sale go directly towards affordable housing.
+                To summarize, the proposal wants to build housing on underutilized land, that the City already owns. If the land isn't suitable
+                for homes, then the proceedings from the sale go directly towards affordable housing.
             </p>
 
             <p>
-                Given the proposal, it's natural to ask about the land the City owns. How much of this is suitable for new homes?
-                How many people could we house on this land? At what cost?
-                But, before we try to find out whether this is a good solution, we need to understand what is a good solution. 
-                HALA's goals included creating 20,000 affordable housing units and 30,000 housing units at market price.
-                Because we want to focus specifically on the affordable housing part, we begin our study by finding out how many 
-                people are burdened by the rent they pay. 
-                We then move on to the viability of the proposal.
-                Let's go down the rabbit hole!
+                Given the proposal, it's natural to ask about the land the City owns. How much of this is suitable for new homes? How many
+                people could we house on this land? At what cost?
+            </p>
+            <p>
+                But, before we try to find out whether this is a good solution, we need to understand what is a good solution. HALA's goals
+                included creating 20,000 affordable housing units and 30,000 housing units at market price. Because we want
+                to focus specifically on the affordable housing part, we begin our study by finding out how many people are
+                burdened by the rent they pay. We then move on to the viability of the proposal. Let's go down the rabbit
+                hole!
             </p>
 
         </div>
@@ -118,33 +111,18 @@
 
     <section id="current_state">
         <div class="container">
-            <h2>How much are people paying right now?</h2>
-            <img src="./website/images/income_by_zip_use.png"/>
-            <img src="./website/images/rent_by_zip_use.png"/>
-            <img src="./website/images/rent_in_seattle_use.png"/>
+            <h2>How much are people earning and paying?</h2>
+            <img src="./website/images/income_by_zip_use.png" />
+            <img src="./website/images/rent_by_zip_use.png" />
+            <img src="./website/images/rent_in_seattle_use.png" />
             <p>
-                We can see that the average seattle rent has risen by $1,200 over the last four years. 
+                We can see that the average seattle rent has risen by almost $1,200 over the last four years.
 
             </p>
-            <img src="./website/images/rent_over_income_use.png"/>
+            <img src="./website/images/rent_over_income_use.png" />
             <p>
-                We can see that the percentage of income going towards rent is beginning to rise again. 
+                We can see that the percentage of income going towards rent is beginning to rise again.
             </p>
-
-            <!-- The following explanations should appear after the map, but before our HALA L.1 thing. -->
-            <ul>
-                <li>
-                    The number that we used to obtain the cost of building per sq. ft was obtained from a global
-                    conference of builders. Some of them had construction experience in Seattle and we used the
-                    number that they gave as our basis for cost.
-                </li>
-                <li>
-                    For each plot of land we had, we had to find zoning to find how high we could build.
-                    Using the Seattle zoning tool, we found that each zoning permit also had a minimum 
-                    requirement for the unit size, meaning we couldn't build units smaller than the size 
-                    listed.
-                </li>
-            </ul>
 
             <p>
                 Being able to afford housing doesn't just mean people have enough money out of their total. Money spent on rent needs to
@@ -155,37 +133,34 @@
 
     </section>
 
-    <!-- Visualizations -->
-    <!-- <svg id="affordability-stacked-bar-chart" width="960" height="500"></svg> -->
-    <!-- <div id="affordability-chloropleth"></div>   -->
-    <!-- <svg id="affordability-chloropleth-seattle"></svg>   -->
-
-    <section id="question-two">
-        <div class="container">
-            <h2>How many people won't be able to afford housing in Seattle?</h2>
-        </div>
-
-    </section>
-
     <section id="method-excess">
         <div class="container">
             <h2>Method for Evaluating Excess Land</h2>
-            <p>The goal of this analysis was to determine how much affordable hosuing could be built on excess/surplus/underutilized land the city owns and at what cost. Affordable housing was quantified by determining <strong>units</strong> buildable which can hold one or more people, at what cost in dollars. Cost was assessed from an <a href="http://www.turnerandtownsend.com/media/2412/international-construction-market-survey-2017-final.pdf">international survey of builders</a>. This amount was $150/sqft for townhouses, $170/sqft for low-rise, and $145/sqft for affordable units</p>
+            <p>The goal of this analysis was to determine how much affordable housing could be built on excess/surplus/underutilized
+                land the city owns and at what cost. Affordable housing was quantified by determining
+                <strong>units</strong> buildable which can hold one or more people, at what cost in dollars. Cost was assessed from
+                an
+                <a href="http://www.turnerandtownsend.com/media/2412/international-construction-market-survey-2017-final.pdf">international survey of builders</a>. This amount was $150/sqft for townhouses, $170/sqft for low-rise, and
+                $145/sqft for affordable units</p>
 
-            <p>To evaluate the possible costs/benefits of building on excess city land we started with the city property inventory dataset.
-            It contains information about all the land the city owns including a plot's address, classification (such as Excess,
-            Fully utilized, Surplus, or Under utilized), land square footage, and department whose juridsiction it is.</p>
+            <p>To evaluate the possible costs/benefits of building on excess city land we started with the city property inventory
+                dataset. It contains information about all the land the city owns including a plot's address, classification
+                (such as Excess, Fully utilized, Surplus, or Under utilized), land square footage, and department whose juridsiction
+                it is.</p>
 
-            <p>Zoning permit data was added to the dataset by using a <a href="http://www.seattle.gov/dpd/toolsresources/Map/default.htm">zoning lookup tool</a> on the Seattle website.</p>
+            <p>Zoning permit data was added to the dataset by using a
+                <a href="http://www.seattle.gov/dpd/toolsresources/Map/default.htm">zoning lookup tool</a> on the Seattle website.</p>
+            <img src="./website/images/zoningmap.jpg" />
+            <p>Our model takes in two inputs: the square footage of the land and its zoning permit. These two values are the
+                bare minimum for estimating the amount of units that could be built because while square footage tells how
+                much land there is, zoning determines things like the amount of land that can actually be built on, the minimum
+                size for a dwelling, and the maximum height that can be built. Summaries for various zoning types were obtained
+                from the city of Seattle Department of Construction &amp Inspections
+                <a href="http://www.seattle.gov/dpd/codesrules/codes/zoning/default.htm">zoning page
+                </a>.</p>
 
-            <p>Our model takes in two inputs: the square footage of the land and its zoning permit. These two values are the bare
-            minimum for estimating the amount of units that could be built because while square footage tells how much land there
-            is, zoning determines things like the amount of land that can actually be built on, the minimum size for a dwelling, and
-            the maximum height that can be built. Summaries for various zoning types were obtained from the city of Seattle 
-            Department of Construction &amp Inspections <a href="http://www.seattle.gov/dpd/codesrules/codes/zoning/default.htm">zoning
-            page</a>.</p>
-
-            <p>An example of how the regulations were coded into our model is Lowrise 1 (LR1) zones. At a high level LR1 zoning requirements are:
+            <p>An example of how the regulations were coded into our model is Lowrise 1 (LR1) zones. At a high level LR1 zoning
+                requirements are:
                 <ul>
                     <li>Their maxmimum height is 30' plus a 5' roof. </li>
                     <li>25% of the space must be an amenity area.</li>
@@ -193,52 +168,68 @@
                 </ul>
             </p>
             <p>
-                And so if a given plot of land is zoned as LR1, our model truncates 1/4 of the square footage because it must be provided as amenity space, while also multiplying the land to account for the height maximum. The total buildable square footage is then divded by the minimum dwelling size for that zone. This is the same process as all other zonings, with buildable square footage and minimum dwelling size changing depending on the zoning.
+                And so if a given plot of land is zoned as LR1, our model truncates 1/4 of the square footage because it must be provided
+                as amenity space, while also multiplying the land to account for the height maximum. The total buildable
+                square footage is then divded by the minimum dwelling size for that zone. This is the same process as all
+                other zonings, with buildable square footage and minimum dwelling size changing depending on the zoning.
             </p>
-            <p>
-                The following are a few estimation of specific plots the city has already considered building on.
-            </p>
-            <img src="./website/images/zoningmap.jpg"/>
+
+
         </div>
-    
+
     </section>
 
-    <section id="question-two">
-            <div class="container">
-                <h2>Exploring the plots</h2>
-            </div>
+    <section id="map-introduction">
+        <div class="container">
+            <h2>Exploring the plots</h2>
+
             <p>
-                Here we have a map with all the unutilized land we considered for the study. 
-                Click on a marker to view details about the plot. 
-                You can even zoom in and use the street view (person icon at bottom right) button to look at the actual property.  
+                Here we have a map with all the unutilized land we considered for the study. Click on a marker to view details about the
+                plot. You can even zoom in and use the street view (person icon at bottom right) button to look at the actual
+                property.
             </p>
-        </section>
+        </div>
+    </section>
     <!-- Map -->
     <div id="map"></div>
 
     <section id="yakima" class="case-study">
         <div class="container">
-            <h2>Yakima Ave S Property Estimates</h2>
-            <img src="./website/images/yakima.png"/>
-            <p><span class="case-study-key">Adress:</span> 1310 Yakima Ave S</p>
-            <p><span class="case-study-key">Land Sqft:</span> 16,476sqft</p>
-            <p><span class="case-study-key">Permit Type:</span> Lowrise 1</p>
-            <p><span class="case-study-key">Estimated Buildable Sqft:</span> 37071sqft</p>
-            <p><span class="case-study-key">Estimated units:</span> 18</p>
-            <p><span class="case-study-key">Estimated cost:</span> $6,302,070</p>
+            <h2>Case studies</h2>
+            <h3>Yakima Ave S Property Estimates</h3>
+            <img src="./website/images/yakima.png" />
+            <p>
+                <span class="case-study-key">Adress:</span> 1310 Yakima Ave S</p>
+            <p>
+                <span class="case-study-key">Land Sqft:</span> 16,476sqft</p>
+            <p>
+                <span class="case-study-key">Permit Type:</span> Lowrise 1</p>
+            <p>
+                <span class="case-study-key">Estimated Buildable Sqft:</span> 37071sqft</p>
+            <p>
+                <span class="case-study-key">Estimated units:</span> 18</p>
+            <p>
+                <span class="case-study-key">Estimated cost:</span> $6,302,070</p>
         </div>
     </section>
 
     <section id="harbor" class="case-study">
         <div class="container">
-            <h2>Habor Ave SW Property Estimate</h2>
-            <img src="./website/images/harbor.png"/>
-            <p><span class="case-study-key">Adress:</span> 2765 Harbor Ave SW/p>
-            <p><span class="case-study-key">Land Sqft:</span> 20,112sqft</p>
-            <p><span class="case-study-key"><Permit Type:</span> Single-Family 7200</p>
-            <p><span class="case-study-key">Estimated Buildable Sqft:</span> 7039sqft (Single-family zoning restricts buildable area to 35% of total land sqft)</p>
-            <p><span class="case-study-key">Estimated units:</span> 3</p>
-            <p><span class="case-study-key">Estimated cost:</span> $1,055,880</p>
+            <h3>Habor Ave SW Property Estimate</h3>
+            <img src="./website/images/harbor.png" />
+            <p>
+                <span class="case-study-key">Adress:</span> 2765 Harbor Ave SW/p>
+                <p>
+                    <span class="case-study-key">Land Sqft:</span> 20,112sqft</p>
+                <p>
+                    <span class="case-study-key">Permit Type:</span> Single-Family 7200</p>
+                <p>
+                    <span class="case-study-key">Estimated Buildable Sqft:</span> 7039sqft (Single-family zoning restricts buildable area to 35% of total
+                    land sqft)</p>
+                <p>
+                    <span class="case-study-key">Estimated units:</span> 3</p>
+                <p>
+                    <span class="case-study-key">Estimated cost:</span> $1,055,880</p>
         </div>
     </section>
 
@@ -246,38 +237,65 @@
         <div class="container">
             <h2>Modeling with All Excess Land in Seattle</h2>
 
-        <p>
-            These are the numbers we got. <br />
-            <ol>
-                <li>Units that can be built 7,318</li>
-                <li>Cost of units 1,068,912,064</li>
-                <li>Cost per unit $146,066</li>
-          </ol>
-        </p>
+            <p>
+                These are the numbers we got.
+                <br />
+                <ol>
+                    <li>Units that can be built 7,318</li>
+                    <li>Cost of units 1,068,912,064</li>
+                    <li>Cost per unit $146,066</li>
+                </ol>
+            </p>
 
-        <p>The above is our estimates for if Seattle was to develop all excess land it owns, keeping it zoned as it is, at a fixed cost/sqft to build. While the city is unlikely to zone all their property, our tool can be used to inform which zones are more beneficial than others given their zoning and size. It is possible that this tool could be used to understand how changing zoning permits for city land could build more or less land. In the following section we discuss the limitations of our method.</p>
+            <p>The above is our estimates for if Seattle was to develop all excess land it owns, keeping it zoned as it is,
+                at a fixed cost/sqft to build. While the city is unlikely to zone all their property, our tool can be used
+                to inform which zones are more beneficial than others given their zoning and size. It is possible that this
+                tool could be used to understand how changing zoning permits for city land could build more or less land.
+                In the following section we discuss the limitations of our method.</p>
         </div>
     </section>
 
     <section id="Limitations">
-            <div class="container">
-                <h2>Limitations</h2>
-            </div>
-    
-            <p>While we considered zoning permit and square footage for a given plot of land, there are a great many other factors we did not factor in that effect the accuracy of our estimates.</p>
-            <p><strong>Environmental:</strong> We are not currently factoring in details related to the physical condition of the land. This includes things related to the slope of the land, soil-sturdiness, or the preservation status. There are both legal and physical constraints to building on slopes and wetlands, that increase the cost and lower the units that can be built on a given plot of land. Some plots the city own may not be able to be built on at all because the landscaping would be too costly/infeasible. Seattle also has different environmental minimum bars that must be passed for building projects that would affect the size of development.</p>
-            <p><strong>Variablility in Building Costs:</strong> Our model assumes a fixed cost per sqft of building. In reality there are many factors in the total cost of building a housing unit. Some things that could be added to improve the accuracy would be to account for removing trees/rocks from a given plot, cost of designing the structure, cost of inspectors and contractors for various building operations. It is also the case that building in Capitol Hill is more expensive than building in Northgate, because of the relative cramptness and impact on the traffic and community of the area</p>
-            <p><strong>Regulatory/Legal Concerns:</strong> There are restrictions on building certain sizes of dwellings within a certain proximity of single-family zoned areas that were not taken in to account. Similarly, the regulations for a given plot of land are varied dependent on the project being undertaken, which may allow for more or less of the total area to be used for housing. </p>
-    
-        </section>
-    
-        <!-- <div id="income_line_chart"></div> -->
-    
+        <div class="container">
+            <h2>Limitations</h2>
+
+
+            <p>While we considered zoning permit and square footage for a given plot of land, there are a great many other factors
+                we did not factor in that effect the accuracy of our estimates.</p>
+            <p>
+                <strong>Environmental:</strong>
+                We are not currently factoring in details related to the physical condition of the land. This includes things related to
+                the slope of the land, soil-sturdiness, or the preservation status. There are both legal and physical constraints
+                to building on slopes and wetlands, that increase the cost and lower the units that can be built on a given
+                plot of land. Some plots the city own may not be able to be built on at all because the landscaping would
+                be too costly/infeasible. Seattle also has different environmental minimum bars that must be passed for building
+                projects that would affect the size of development.
+            </p>
+            <p>
+                <strong>Variablility in Building Costs:</strong>
+                Our model assumes a fixed cost per sqft of building. In reality there are many factors in the total cost of building a housing
+                unit. Some things that could be added to improve the accuracy would be to account for removing trees/rocks
+                from a given plot, cost of designing the structure, cost of inspectors and contractors for various building
+                operations. It is also the case that building in Capitol Hill is more expensive than building in Northgate,
+                because of the relative crampedness and impact on the traffic and community of the area
+            </p>
+            <p>
+                <strong>Regulatory/Legal Concerns:</strong>
+                There are restrictions on building certain sizes of dwellings within a certain proximity of single-family zoned areas that
+                were not taken in to account. Similarly, the regulations for a given plot of land are varied dependent on
+                the project being undertaken, which may allow for more or less of the total area to be used for housing.
+            </p>
+        </div>
+
+    </section>
+
+    <!-- <div id="income_line_chart"></div> -->
+
     <footer>
         <div class="container">
             <p>
-                Made by Ethan, Henry, Ishan and Kyle with <3 
-            </p>
+                Made by Ethan, Henry, Ishan and Kyle with
+                <3 </p>
         </div>
     </footer>
 
