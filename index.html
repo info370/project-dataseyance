@@ -146,31 +146,25 @@
     <section id="method-excess">
         <div class="container">
             <h2>Method for Evaluating Excess Land</h2>
-            <p>The goal of this analysis was to determine how much affordable housing could be built on excess/surplus/underutilized
-                land the city owns and at what cost. Affordable housing was quantified by determining
-                <strong>units</strong> buildable which can hold one or more people, at what cost in dollars. Cost was assessed from
-                an
-                <a href="http://www.turnerandtownsend.com/media/2412/international-construction-market-survey-2017-final.pdf">international survey of builders</a>. This amount was $150/sqft for townhouses, $170/sqft for low-rise, and
-                $145/sqft for affordable units</p>
+            <p>
+                The goal of this analysis was to determine how much affordable housing could be built on       excess/surplus/under utilized land the city owns and at what cost. Affordable housing was quantified by determining
+                <strong>units</strong> buildable which can hold one or more people, at what cost in dollars. Cost was assessed from an
+                <a href="http://www.turnerandtownsend.com/media/2412/international-construction-market-survey-2017-final.pdf">international survey of builders</a>. This amount was $150/sqft for townhouses, $170/sqft for low-rise, and $145/sqft for affordable units.</p>
 
-            <p>To evaluate the possible costs/benefits of building on excess city land we started with the city property inventory
-                dataset. It contains information about all the land the city owns including a plot's address, classification
-                (such as Excess, Fully utilized, Surplus, or Under utilized), land square footage, and department whose juridsiction
-                it is.</p>
+            <p>
+                To evaluate the possible costs/benefits of building on excess city land we started with the city property inventory dataset. It contains information about all the land the city owns including a plot's address, classification (such as excess, fully utilized, surplus, or under utilized), land square footage, and department whose juridsiction it is.
+            </p>
 
-            <p>Zoning permit data was added to the dataset by using a
-                <a href="http://www.seattle.gov/dpd/toolsresources/Map/default.htm">zoning lookup tool</a> on the Seattle website.</p>
+            <p>
+                Zoning permit data was added to the dataset by using a
+                <a href="http://www.seattle.gov/dpd/toolsresources/Map/default.htm">zoning lookup tool</a> on the Seattle website.
+            </p>
             <img src="./website/images/zoningmap.jpg" />
-            <p>Our model takes in two inputs: the square footage of the land and its zoning permit. These two values are the
-                bare minimum for estimating the amount of units that could be built because while square footage tells how
-                much land there is, zoning determines things like the amount of land that can actually be built on, the minimum
-                size for a dwelling, and the maximum height that can be built. Summaries for various zoning types were obtained
-                from the city of Seattle Department of Construction &amp Inspections
-                <a href="http://www.seattle.gov/dpd/codesrules/codes/zoning/default.htm">zoning page
-                </a>.</p>
+            <p>
+                Our model takes in two inputs: the square footage of the land and its zoning permit. These two values are the bare minimum for estimating the amount of units that could be built because while square footage tells how much land there is, zoning determines things like the amount of land that can actually be built on, the minimum size for a dwelling, and the maximum height that can be built. Summaries for various zoning types were obtained from the city of Seattle Department of Construction &amp Inspections <a href="http://www.seattle.gov/dpd/codesrules/codes/zoning/default.htm">Zoning page </a>.
+            </p>
 
-            <p>An example of how the regulations were coded into our model is Lowrise 1 (LR1) zones. At a high level LR1 zoning
-                requirements are:
+            <p>An example of how the regulations were coded into our model is Lowrise 1 (LR1) zones. At a high level LR1 zoning requirements are:
                 <ul>
                     <li>Their maxmimum height is 30' plus a 5' roof. </li>
                     <li>25% of the space must be an amenity area.</li>
@@ -209,17 +203,23 @@
             <h3>Yakima Ave S Property Estimates</h3>
             <img src="./website/images/yakima.png" />
             <p>
-                <span class="case-study-key">Adress:</span> 1310 Yakima Ave S</p>
+                <span class="case-study-key">Address:</span> 1310 Yakima Ave S
+            </p>
             <p>
-                <span class="case-study-key">Land Sqft:</span> 16,476sqft</p>
+                <span class="case-study-key">Land Sqft:</span> 16,476 ft<sup>2</sup>
+            </p>
             <p>
-                <span class="case-study-key">Permit Type:</span> Lowrise 1</p>
+                <span class="case-study-key">Permit Type:</span> Lowrise 1
+            </p>
             <p>
-                <span class="case-study-key">Estimated Buildable Sqft:</span> 37071sqft</p>
+                <span class="case-study-key">Estimated Buildable Sqft:</span> 37071 ft<sup>2</sup>
+            </p>
             <p>
-                <span class="case-study-key">Estimated units:</span> 18</p>
+                <span class="case-study-key">Estimated units:</span> 18
+            </p>
             <p>
-                <span class="case-study-key">Estimated cost:</span> $6,302,070</p>
+                <span class="case-study-key">Estimated cost:</span> $6,302,070
+            </p>
         </div>
     </section>
 
@@ -228,18 +228,24 @@
             <h3>Habor Ave SW Property Estimate</h3>
             <img src="./website/images/harbor.png" />
             <p>
-                <span class="case-study-key">Adress:</span> 2765 Harbor Ave SW/p>
-                <p>
-                    <span class="case-study-key">Land Sqft:</span> 20,112sqft</p>
-                <p>
-                    <span class="case-study-key">Permit Type:</span> Single-Family 7200</p>
-                <p>
-                    <span class="case-study-key">Estimated Buildable Sqft:</span> 7039sqft (Single-family zoning restricts buildable area to 35% of total
-                    land sqft)</p>
-                <p>
-                    <span class="case-study-key">Estimated units:</span> 3</p>
-                <p>
-                    <span class="case-study-key">Estimated cost:</span> $1,055,880</p>
+                <span class="case-study-key">Adress:</span> 2765 Harbor Ave SW
+            </p>
+            <p>
+                <span class="case-study-key">Land Sqft:</span> 20,112 ft<sup>2</sup>
+            </p>
+            <p>
+                <span class="case-study-key">Permit Type:</span> Single-Family 7200
+            </p>
+            <p>
+                <span class="case-study-key">Estimated Buildable Sqft:</span> 7039 ft<sup>2</sup> (Single-family zoning restricts buildable area to 35% of total
+                land ft<sup>2</sup>)
+            </p>
+            <p>
+                <span class="case-study-key">Estimated units:</span> 3
+            </p>
+            <p>
+                <span class="case-study-key">Estimated cost:</span> $1,055,880
+            </p>
         </div>
     </section>
 
@@ -274,16 +280,15 @@
                 we did not factor in that effect the accuracy of our estimates.</p>
             <p>
                 <strong>Environmental:</strong>
-                We are not currently factoring in details related to the physical condition of the land. This includes things related to
-                the slope of the land, soil-sturdiness, or the preservation status. There are both legal and physical constraints
+                We are not currently factoring in details related to the physical condition of the land. This includes things related to the slope of the land, soil-sturdiness, or the preservation status. There are both legal and physical constraints
                 to building on slopes and wetlands, that increase the cost and lower the units that can be built on a given
                 plot of land. Some plots the city own may not be able to be built on at all because the landscaping would
                 be too costly/infeasible. Seattle also has different environmental minimum bars that must be passed for building
                 projects that would affect the size of development.
             </p>
             <p>
-                <strong>Variablility in Building Costs:</strong>
-                Our model assumes a fixed cost per sqft of building. In reality there are many factors in the total cost of building a housing
+                <strong>Variability in Building Costs:</strong>
+                Our model assumes a fixed cost per sq. ft of building. In reality there are many factors in the total cost of building a housing
                 unit. Some things that could be added to improve the accuracy would be to account for removing trees/rocks
                 from a given plot, cost of designing the structure, cost of inspectors and contractors for various building
                 operations. It is also the case that building in Capitol Hill is more expensive than building in Northgate,
